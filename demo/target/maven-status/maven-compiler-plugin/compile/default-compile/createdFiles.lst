@@ -1,0 +1,12 @@
+com/example/demo/controller/InsuranceController.class
+com/example/demo/ServiceType.class
+com/example/demo/entity/Insurance.class
+com/example/demo/CoverageType.class
+com/example/demo/dto/ServiceRequest.class
+com/example/demo/service/InsuranceRuleService.class
+com/example/demo/DemoApplication.class
+com/example/demo/service/ServiceOrchestrator.class
+com/example/demo/controller/ServiceController.class
+com/example/demo/service/DiscountService.class
+com/example/demo/repository/InsuranceRepository.class
+com/example/demo/entity/ServiceEstimate.class
