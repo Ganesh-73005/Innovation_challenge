@@ -1,0 +1,1602 @@
+[
+  {
+    "labour_category": "Engine Repair",
+    "technician_id": "T001",
+    "skill_level": "Senior",
+    "hourly_rate": 120,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Brake Service",
+    "technician_id": "T002",
+    "skill_level": "Mid",
+    "hourly_rate": 95,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Transmission Service",
+    "technician_id": "T003",
+    "skill_level": "Senior",
+    "hourly_rate": 130,
+    "availability": false,
+    "eta_if_unavailable_hours": 4
+  },
+  {
+    "labour_category": "Air Conditioning Service",
+    "technician_id": "T004",
+    "skill_level": "Mid",
+    "hourly_rate": 100,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Electrical Diagnostics",
+    "technician_id": "T005",
+    "skill_level": "Junior",
+    "hourly_rate": 85,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Cooling System Service",
+    "technician_id": "T006",
+    "skill_level": "Mid",
+    "hourly_rate": 92,
+    "availability": false,
+    "eta_if_unavailable_hours": 3
+  },
+  {
+    "labour_category": "Suspension Repair",
+    "technician_id": "T007",
+    "skill_level": "Senior",
+    "hourly_rate": 115,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Engine Maintenance",
+    "technician_id": "T008",
+    "skill_level": "Mid",
+    "hourly_rate": 105,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Exhaust System Service",
+    "technician_id": "T009",
+    "skill_level": "Junior",
+    "hourly_rate": 80,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Fuel System Service",
+    "technician_id": "T010",
+    "skill_level": "Mid",
+    "hourly_rate": 98,
+    "availability": false,
+    "eta_if_unavailable_hours": 2
+  },
+  {
+    "labour_category": "Steering System Service",
+    "technician_id": "T011",
+    "skill_level": "Senior",
+    "hourly_rate": 118,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Air Conditioning",
+    "technician_id": "T012",
+    "skill_level": "Junior",
+    "hourly_rate": 88,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Brake Service",
+    "technician_id": "T013",
+    "skill_level": "Mid",
+    "hourly_rate": 93,
+    "availability": false,
+    "eta_if_unavailable_hours": 5
+  },
+  {
+    "labour_category": "Engine Repair",
+    "technician_id": "T014",
+    "skill_level": "Senior",
+    "hourly_rate": 125,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Transmission",
+    "technician_id": "T015",
+    "skill_level": "Mid",
+    "hourly_rate": 110,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Electrical",
+    "technician_id": "T016",
+    "skill_level": "Junior",
+    "hourly_rate": 82,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Cooling System",
+    "technician_id": "T017",
+    "skill_level": "Mid",
+    "hourly_rate": 94,
+    "availability": false,
+    "eta_if_unavailable_hours": 3
+  },
+  {
+    "labour_category": "Suspension & Steering",
+    "technician_id": "T018",
+    "skill_level": "Senior",
+    "hourly_rate": 119,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Fuel System",
+    "technician_id": "T019",
+    "skill_level": "Mid",
+    "hourly_rate": 99,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Exhaust System",
+    "technician_id": "T020",
+    "skill_level": "Junior",
+    "hourly_rate": 84,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Engine Maintenance",
+    "technician_id": "T021",
+    "skill_level": "Mid",
+    "hourly_rate": 102,
+    "availability": false,
+    "eta_if_unavailable_hours": 2
+  },
+  {
+    "labour_category": "Brake Service",
+    "technician_id": "T022",
+    "skill_level": "Senior",
+    "hourly_rate": 121,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Transmission Service",
+    "technician_id": "T023",
+    "skill_level": "Mid",
+    "hourly_rate": 108,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Electrical Diagnostics",
+    "technician_id": "T024",
+    "skill_level": "Junior",
+    "hourly_rate": 86,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Air Conditioning Service",
+    "technician_id": "T025",
+    "skill_level": "Mid",
+    "hourly_rate": 97,
+    "availability": false,
+    "eta_if_unavailable_hours": 4
+  },
+  {
+    "labour_category": "Engine Repair",
+    "technician_id": "T001",
+    "skill_level": "Senior",
+    "hourly_rate": 120,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Brake Service",
+    "technician_id": "T002",
+    "skill_level": "Mid",
+    "hourly_rate": 90,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Transmission Service",
+    "technician_id": "T003",
+    "skill_level": "Senior",
+    "hourly_rate": 115,
+    "availability": false,
+    "eta_if_unavailable_hours": 4
+  },
+  {
+    "labour_category": "Electrical Diagnostics",
+    "technician_id": "T004",
+    "skill_level": "Junior",
+    "hourly_rate": 80,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Cooling System Service",
+    "technician_id": "T005",
+    "skill_level": "Mid",
+    "hourly_rate": 95,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Suspension Repair",
+    "technician_id": "T006",
+    "skill_level": "Senior",
+    "hourly_rate": 110,
+    "availability": false,
+    "eta_if_unavailable_hours": 3
+  },
+  {
+    "labour_category": "Engine Maintenance",
+    "technician_id": "T007",
+    "skill_level": "Mid",
+    "hourly_rate": 100,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Exhaust System Service",
+    "technician_id": "T008",
+    "skill_level": "Junior",
+    "hourly_rate": 85,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Fuel System Service",
+    "technician_id": "T009",
+    "skill_level": "Mid",
+    "hourly_rate": 92,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Steering System Service",
+    "technician_id": "T010",
+    "skill_level": "Senior",
+    "hourly_rate": 118,
+    "availability": false,
+    "eta_if_unavailable_hours": 5
+  },
+  {
+    "labour_category": "Air Conditioning Service",
+    "technician_id": "T011",
+    "skill_level": "Mid",
+    "hourly_rate": 97,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Brake Service",
+    "technician_id": "T012",
+    "skill_level": "Junior",
+    "hourly_rate": 78,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Engine Repair",
+    "technician_id": "T013",
+    "skill_level": "Senior",
+    "hourly_rate": 122,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Transmission",
+    "technician_id": "T014",
+    "skill_level": "Mid",
+    "hourly_rate": 108,
+    "availability": false,
+    "eta_if_unavailable_hours": 6
+  },
+  {
+    "labour_category": "Electrical",
+    "technician_id": "T015",
+    "skill_level": "Junior",
+    "hourly_rate": 82,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Cooling System",
+    "technician_id": "T016",
+    "skill_level": "Mid",
+    "hourly_rate": 96,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Suspension & Steering",
+    "technician_id": "T017",
+    "skill_level": "Senior",
+    "hourly_rate": 112,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Fuel System",
+    "technician_id": "T018",
+    "skill_level": "Junior",
+    "hourly_rate": 79,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Exhaust System",
+    "technician_id": "T019",
+    "skill_level": "Mid",
+    "hourly_rate": 94,
+    "availability": false,
+    "eta_if_unavailable_hours": 2
+  },
+  {
+    "labour_category": "HVAC",
+    "technician_id": "T020",
+    "skill_level": "Senior",
+    "hourly_rate": 119,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Engine Maintenance",
+    "technician_id": "T021",
+    "skill_level": "Mid",
+    "hourly_rate": 101,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Brake Service",
+    "technician_id": "T022",
+    "skill_level": "Junior",
+    "hourly_rate": 77,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Transmission Service",
+    "technician_id": "T023",
+    "skill_level": "Senior",
+    "hourly_rate": 117,
+    "availability": false,
+    "eta_if_unavailable_hours": 4
+  },
+  {
+    "labour_category": "Electrical Diagnostics",
+    "technician_id": "T024",
+    "skill_level": "Mid",
+    "hourly_rate": 88,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Air Conditioning",
+    "technician_id": "T025",
+    "skill_level": "Junior",
+    "hourly_rate": 81,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Engine",
+    "technician_id": "T001",
+    "skill_level": "Senior",
+    "hourly_rate": 120,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Brake Service",
+    "technician_id": "T002",
+    "skill_level": "Mid",
+    "hourly_rate": 95,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Transmission Service",
+    "technician_id": "T003",
+    "skill_level": "Senior",
+    "hourly_rate": 115,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Cooling System Service",
+    "technician_id": "T004",
+    "skill_level": "Mid",
+    "hourly_rate": 90,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Electrical Diagnostics",
+    "technician_id": "T005",
+    "skill_level": "Senior",
+    "hourly_rate": 130,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Suspension Repair",
+    "technician_id": "T006",
+    "skill_level": "Mid",
+    "hourly_rate": 100,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Engine Repair",
+    "technician_id": "T007",
+    "skill_level": "Senior",
+    "hourly_rate": 125,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Brake Service",
+    "technician_id": "T008",
+    "skill_level": "Junior",
+    "hourly_rate": 80,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Air Conditioning Service",
+    "technician_id": "T009",
+    "skill_level": "Mid",
+    "hourly_rate": 95,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Exhaust System Service",
+    "technician_id": "T010",
+    "skill_level": "Mid",
+    "hourly_rate": 92,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Fuel System Service",
+    "technician_id": "T011",
+    "skill_level": "Senior",
+    "hourly_rate": 118,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Steering System Service",
+    "technician_id": "T012",
+    "skill_level": "Mid",
+    "hourly_rate": 97,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Electrical",
+    "technician_id": "T013",
+    "skill_level": "Junior",
+    "hourly_rate": 78,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Transmission",
+    "technician_id": "T014",
+    "skill_level": "Senior",
+    "hourly_rate": 122,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Engine Maintenance",
+    "technician_id": "T015",
+    "skill_level": "Mid",
+    "hourly_rate": 98,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Cooling System",
+    "technician_id": "T016",
+    "skill_level": "Junior",
+    "hourly_rate": 85,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Suspension & Steering",
+    "technician_id": "T017",
+    "skill_level": "Mid",
+    "hourly_rate": 102,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Exhaust",
+    "technician_id": "T018",
+    "skill_level": "Junior",
+    "hourly_rate": 82,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Fuel System",
+    "technician_id": "T019",
+    "skill_level": "Mid",
+    "hourly_rate": 96,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Air Conditioning",
+    "technician_id": "T020",
+    "skill_level": "Senior",
+    "hourly_rate": 124,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Brake Service",
+    "technician_id": "T021",
+    "skill_level": "Mid",
+    "hourly_rate": 93,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Transmission Service",
+    "technician_id": "T022",
+    "skill_level": "Senior",
+    "hourly_rate": 119,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Electrical Diagnostics",
+    "technician_id": "T023",
+    "skill_level": "Mid",
+    "hourly_rate": 101,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Engine Repair",
+    "technician_id": "T024",
+    "skill_level": "Senior",
+    "hourly_rate": 127,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "HVAC",
+    "technician_id": "T025",
+    "skill_level": "Mid",
+    "hourly_rate": 99,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Air Conditioning",
+    "technician_id": "T001",
+    "skill_level": "Junior",
+    "hourly_rate": 85,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Air Conditioning Service",
+    "technician_id": "T002",
+    "skill_level": "Mid",
+    "hourly_rate": 95,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Brake Service",
+    "technician_id": "T003",
+    "skill_level": "Senior",
+    "hourly_rate": 110,
+    "availability": false,
+    "eta_if_unavailable_hours": 4
+  },
+  {
+    "labour_category": "Brakes",
+    "technician_id": "T004",
+    "skill_level": "Mid",
+    "hourly_rate": 100,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Cooling System",
+    "technician_id": "T005",
+    "skill_level": "Junior",
+    "hourly_rate": 80,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Cooling System Service",
+    "technician_id": "T006",
+    "skill_level": "Mid",
+    "hourly_rate": 90,
+    "availability": false,
+    "eta_if_unavailable_hours": 3
+  },
+  {
+    "labour_category": "Drivetrain",
+    "technician_id": "T007",
+    "skill_level": "Senior",
+    "hourly_rate": 115,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Electrical",
+    "technician_id": "T008",
+    "skill_level": "Mid",
+    "hourly_rate": 92,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Electrical Diagnostics",
+    "technician_id": "T009",
+    "skill_level": "Senior",
+    "hourly_rate": 120,
+    "availability": false,
+    "eta_if_unavailable_hours": 5
+  },
+  {
+    "labour_category": "Engine",
+    "technician_id": "T010",
+    "skill_level": "Junior",
+    "hourly_rate": 85,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Engine Maintenance",
+    "technician_id": "T011",
+    "skill_level": "Mid",
+    "hourly_rate": 95,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Engine Repair",
+    "technician_id": "T012",
+    "skill_level": "Senior",
+    "hourly_rate": 125,
+    "availability": false,
+    "eta_if_unavailable_hours": 6
+  },
+  {
+    "labour_category": "Exhaust",
+    "technician_id": "T013",
+    "skill_level": "Junior",
+    "hourly_rate": 80,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Exhaust System",
+    "technician_id": "T014",
+    "skill_level": "Mid",
+    "hourly_rate": 92,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Exhaust System Service",
+    "technician_id": "T015",
+    "skill_level": "Senior",
+    "hourly_rate": 115,
+    "availability": false,
+    "eta_if_unavailable_hours": 4
+  },
+  {
+    "labour_category": "Fuel System",
+    "technician_id": "T016",
+    "skill_level": "Junior",
+    "hourly_rate": 85,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Fuel System Service",
+    "technician_id": "T017",
+    "skill_level": "Mid",
+    "hourly_rate": 98,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "HVAC",
+    "technician_id": "T018",
+    "skill_level": "Senior",
+    "hourly_rate": 118,
+    "availability": false,
+    "eta_if_unavailable_hours": 5
+  },
+  {
+    "labour_category": "Steering",
+    "technician_id": "T019",
+    "skill_level": "Junior",
+    "hourly_rate": 82,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Steering System Service",
+    "technician_id": "T020",
+    "skill_level": "Mid",
+    "hourly_rate": 94,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Suspension",
+    "technician_id": "T021",
+    "skill_level": "Senior",
+    "hourly_rate": 112,
+    "availability": false,
+    "eta_if_unavailable_hours": 3
+  },
+  {
+    "labour_category": "Suspension & Steering",
+    "technician_id": "T022",
+    "skill_level": "Mid",
+    "hourly_rate": 100,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Suspension Repair",
+    "technician_id": "T023",
+    "skill_level": "Senior",
+    "hourly_rate": 120,
+    "availability": false,
+    "eta_if_unavailable_hours": 6
+  },
+  {
+    "labour_category": "Transmission",
+    "technician_id": "T024",
+    "skill_level": "Junior",
+    "hourly_rate": 88,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Transmission Service",
+    "technician_id": "T025",
+    "skill_level": "Mid",
+    "hourly_rate": 102,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Air Conditioning",
+    "technician_id": "T001",
+    "skill_level": "Senior",
+    "hourly_rate": 95,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Air Conditioning Service",
+    "technician_id": "T002",
+    "skill_level": "Mid",
+    "hourly_rate": 85,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Brake Service",
+    "technician_id": "T003",
+    "skill_level": "Junior",
+    "hourly_rate": 70,
+    "availability": false,
+    "eta_if_unavailable_hours": 4
+  },
+  {
+    "labour_category": "Brakes",
+    "technician_id": "T004",
+    "skill_level": "Mid",
+    "hourly_rate": 78,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Cooling System",
+    "technician_id": "T005",
+    "skill_level": "Senior",
+    "hourly_rate": 92,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Cooling System Service",
+    "technician_id": "T006",
+    "skill_level": "Mid",
+    "hourly_rate": 84,
+    "availability": false,
+    "eta_if_unavailable_hours": 3
+  },
+  {
+    "labour_category": "Drivetrain",
+    "technician_id": "T007",
+    "skill_level": "Senior",
+    "hourly_rate": 98,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Electrical",
+    "technician_id": "T008",
+    "skill_level": "Mid",
+    "hourly_rate": 80,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Electrical Diagnostics",
+    "technician_id": "T009",
+    "skill_level": "Senior",
+    "hourly_rate": 90,
+    "availability": false,
+    "eta_if_unavailable_hours": 2
+  },
+  {
+    "labour_category": "Engine",
+    "technician_id": "T010",
+    "skill_level": "Senior",
+    "hourly_rate": 100,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Engine Maintenance",
+    "technician_id": "T011",
+    "skill_level": "Mid",
+    "hourly_rate": 88,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Engine Repair",
+    "technician_id": "T012",
+    "skill_level": "Senior",
+    "hourly_rate": 102,
+    "availability": false,
+    "eta_if_unavailable_hours": 5
+  },
+  {
+    "labour_category": "Exhaust",
+    "technician_id": "T013",
+    "skill_level": "Junior",
+    "hourly_rate": 72,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Exhaust System",
+    "technician_id": "T014",
+    "skill_level": "Mid",
+    "hourly_rate": 80,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Exhaust System Service",
+    "technician_id": "T015",
+    "skill_level": "Junior",
+    "hourly_rate": 68,
+    "availability": false,
+    "eta_if_unavailable_hours": 3
+  },
+  {
+    "labour_category": "Fuel System",
+    "technician_id": "T016",
+    "skill_level": "Mid",
+    "hourly_rate": 82,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Fuel System Service",
+    "technician_id": "T017",
+    "skill_level": "Senior",
+    "hourly_rate": 94,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "HVAC",
+    "technician_id": "T018",
+    "skill_level": "Mid",
+    "hourly_rate": 86,
+    "availability": false,
+    "eta_if_unavailable_hours": 2
+  },
+  {
+    "labour_category": "Steering",
+    "technician_id": "T019",
+    "skill_level": "Senior",
+    "hourly_rate": 96,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Steering System Service",
+    "technician_id": "T020",
+    "skill_level": "Mid",
+    "hourly_rate": 84,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Suspension",
+    "technician_id": "T021",
+    "skill_level": "Senior",
+    "hourly_rate": 97,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Suspension & Steering",
+    "technician_id": "T022",
+    "skill_level": "Mid",
+    "hourly_rate": 85,
+    "availability": false,
+    "eta_if_unavailable_hours": 4
+  },
+  {
+    "labour_category": "Suspension Repair",
+    "technician_id": "T023",
+    "skill_level": "Junior",
+    "hourly_rate": 71,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Transmission",
+    "technician_id": "T024",
+    "skill_level": "Senior",
+    "hourly_rate": 99,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Transmission Service",
+    "technician_id": "T025",
+    "skill_level": "Mid",
+    "hourly_rate": 87,
+    "availability": false,
+    "eta_if_unavailable_hours": 3
+  },
+  {
+    "labour_category": "Air Conditioning",
+    "technician_id": "T001",
+    "skill_level": "Junior",
+    "hourly_rate": 85,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Air Conditioning Service",
+    "technician_id": "T002",
+    "skill_level": "Mid",
+    "hourly_rate": 95,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Brake Service",
+    "technician_id": "T003",
+    "skill_level": "Senior",
+    "hourly_rate": 105,
+    "availability": false,
+    "eta_if_unavailable_hours": 2
+  },
+  {
+    "labour_category": "Brakes",
+    "technician_id": "T004",
+    "skill_level": "Junior",
+    "hourly_rate": 80,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Cooling System",
+    "technician_id": "T005",
+    "skill_level": "Mid",
+    "hourly_rate": 90,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Cooling System Service",
+    "technician_id": "T006",
+    "skill_level": "Senior",
+    "hourly_rate": 110,
+    "availability": false,
+    "eta_if_unavailable_hours": 3
+  },
+  {
+    "labour_category": "Drivetrain",
+    "technician_id": "T007",
+    "skill_level": "Mid",
+    "hourly_rate": 100,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Electrical",
+    "technician_id": "T008",
+    "skill_level": "Junior",
+    "hourly_rate": 85,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Electrical Diagnostics",
+    "technician_id": "T009",
+    "skill_level": "Senior",
+    "hourly_rate": 115,
+    "availability": false,
+    "eta_if_unavailable_hours": 4
+  },
+  {
+    "labour_category": "Engine",
+    "technician_id": "T010",
+    "skill_level": "Mid",
+    "hourly_rate": 105,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Engine Maintenance",
+    "technician_id": "T011",
+    "skill_level": "Junior",
+    "hourly_rate": 80,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Engine Repair",
+    "technician_id": "T012",
+    "skill_level": "Senior",
+    "hourly_rate": 120,
+    "availability": false,
+    "eta_if_unavailable_hours": 5
+  },
+  {
+    "labour_category": "Exhaust",
+    "technician_id": "T013",
+    "skill_level": "Mid",
+    "hourly_rate": 95,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Exhaust System",
+    "technician_id": "T014",
+    "skill_level": "Junior",
+    "hourly_rate": 85,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Exhaust System Service",
+    "technician_id": "T015",
+    "skill_level": "Senior",
+    "hourly_rate": 110,
+    "availability": false,
+    "eta_if_unavailable_hours": 2
+  },
+  {
+    "labour_category": "Fuel System",
+    "technician_id": "T016",
+    "skill_level": "Mid",
+    "hourly_rate": 100,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Fuel System Service",
+    "technician_id": "T017",
+    "skill_level": "Junior",
+    "hourly_rate": 85,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "HVAC",
+    "technician_id": "T018",
+    "skill_level": "Senior",
+    "hourly_rate": 115,
+    "availability": false,
+    "eta_if_unavailable_hours": 3
+  },
+  {
+    "labour_category": "Steering",
+    "technician_id": "T019",
+    "skill_level": "Mid",
+    "hourly_rate": 95,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Steering System Service",
+    "technician_id": "T020",
+    "skill_level": "Junior",
+    "hourly_rate": 80,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Suspension",
+    "technician_id": "T021",
+    "skill_level": "Senior",
+    "hourly_rate": 110,
+    "availability": false,
+    "eta_if_unavailable_hours": 4
+  },
+  {
+    "labour_category": "Suspension & Steering",
+    "technician_id": "T022",
+    "skill_level": "Mid",
+    "hourly_rate": 100,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Suspension Repair",
+    "technician_id": "T023",
+    "skill_level": "Junior",
+    "hourly_rate": 85,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Transmission",
+    "technician_id": "T024",
+    "skill_level": "Senior",
+    "hourly_rate": 115,
+    "availability": false,
+    "eta_if_unavailable_hours": 5
+  },
+  {
+    "labour_category": "Transmission Service",
+    "technician_id": "T025",
+    "skill_level": "Mid",
+    "hourly_rate": 105,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Engine",
+    "technician_id": "T001",
+    "skill_level": "Senior",
+    "hourly_rate": 120,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Brake Service",
+    "technician_id": "T002",
+    "skill_level": "Mid",
+    "hourly_rate": 95,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Transmission Service",
+    "technician_id": "T003",
+    "skill_level": "Senior",
+    "hourly_rate": 130,
+    "availability": false,
+    "eta_if_unavailable_hours": 4
+  },
+  {
+    "labour_category": "Electrical Diagnostics",
+    "technician_id": "T004",
+    "skill_level": "Junior",
+    "hourly_rate": 85,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Cooling System Service",
+    "technician_id": "T005",
+    "skill_level": "Mid",
+    "hourly_rate": 100,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Suspension Repair",
+    "technician_id": "T006",
+    "skill_level": "Senior",
+    "hourly_rate": 115,
+    "availability": false,
+    "eta_if_unavailable_hours": 3
+  },
+  {
+    "labour_category": "Engine Repair",
+    "technician_id": "T007",
+    "skill_level": "Senior",
+    "hourly_rate": 135,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Air Conditioning Service",
+    "technician_id": "T008",
+    "skill_level": "Mid",
+    "hourly_rate": 105,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Exhaust System Service",
+    "technician_id": "T009",
+    "skill_level": "Junior",
+    "hourly_rate": 90,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Fuel System Service",
+    "technician_id": "T010",
+    "skill_level": "Mid",
+    "hourly_rate": 98,
+    "availability": false,
+    "eta_if_unavailable_hours": 2
+  },
+  {
+    "labour_category": "Steering System Service",
+    "technician_id": "T011",
+    "skill_level": "Senior",
+    "hourly_rate": 122,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Electrical",
+    "technician_id": "T012",
+    "skill_level": "Junior",
+    "hourly_rate": 80,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Engine Maintenance",
+    "technician_id": "T013",
+    "skill_level": "Mid",
+    "hourly_rate": 110,
+    "availability": false,
+    "eta_if_unavailable_hours": 5
+  },
+  {
+    "labour_category": "Brake Service",
+    "technician_id": "T014",
+    "skill_level": "Junior",
+    "hourly_rate": 88,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Transmission",
+    "technician_id": "T015",
+    "skill_level": "Senior",
+    "hourly_rate": 128,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Cooling System",
+    "technician_id": "T016",
+    "skill_level": "Mid",
+    "hourly_rate": 102,
+    "availability": false,
+    "eta_if_unavailable_hours": 3
+  },
+  {
+    "labour_category": "Suspension & Steering",
+    "technician_id": "T017",
+    "skill_level": "Senior",
+    "hourly_rate": 118,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Exhaust",
+    "technician_id": "T018",
+    "skill_level": "Junior",
+    "hourly_rate": 85,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Fuel System",
+    "technician_id": "T019",
+    "skill_level": "Mid",
+    "hourly_rate": 97,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "HVAC",
+    "technician_id": "T020",
+    "skill_level": "Senior",
+    "hourly_rate": 124,
+    "availability": false,
+    "eta_if_unavailable_hours": 4
+  },
+  {
+    "labour_category": "Steering",
+    "technician_id": "T021",
+    "skill_level": "Mid",
+    "hourly_rate": 108,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Drivetrain",
+    "technician_id": "T022",
+    "skill_level": "Senior",
+    "hourly_rate": 132,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Air Conditioning",
+    "technician_id": "T023",
+    "skill_level": "Junior",
+    "hourly_rate": 84,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Engine Repair",
+    "technician_id": "T024",
+    "skill_level": "Senior",
+    "hourly_rate": 138,
+    "availability": false,
+    "eta_if_unavailable_hours": 6
+  },
+  {
+    "labour_category": "Transmission Service",
+    "technician_id": "T025",
+    "skill_level": "Mid",
+    "hourly_rate": 112,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Air Conditioning",
+    "technician_id": "T001",
+    "skill_level": "Junior",
+    "hourly_rate": 80,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Air Conditioning Service",
+    "technician_id": "T002",
+    "skill_level": "Mid",
+    "hourly_rate": 85,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Brake Service",
+    "technician_id": "T003",
+    "skill_level": "Senior",
+    "hourly_rate": 90,
+    "availability": false,
+    "eta_if_unavailable_hours": 2
+  },
+  {
+    "labour_category": "Brakes",
+    "technician_id": "T004",
+    "skill_level": "Junior",
+    "hourly_rate": 80,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Cooling System",
+    "technician_id": "T005",
+    "skill_level": "Mid",
+    "hourly_rate": 85,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Cooling System Service",
+    "technician_id": "T006",
+    "skill_level": "Senior",
+    "hourly_rate": 90,
+    "availability": false,
+    "eta_if_unavailable_hours": 3
+  },
+  {
+    "labour_category": "Drivetrain",
+    "technician_id": "T007",
+    "skill_level": "Junior",
+    "hourly_rate": 80,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Electrical",
+    "technician_id": "T008",
+    "skill_level": "Mid",
+    "hourly_rate": 85,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Electrical Diagnostics",
+    "technician_id": "T009",
+    "skill_level": "Senior",
+    "hourly_rate": 90,
+    "availability": false,
+    "eta_if_unavailable_hours": 1
+  },
+  {
+    "labour_category": "Engine",
+    "technician_id": "T010",
+    "skill_level": "Junior",
+    "hourly_rate": 80,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Engine Maintenance",
+    "technician_id": "T011",
+    "skill_level": "Mid",
+    "hourly_rate": 85,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Engine Repair",
+    "technician_id": "T012",
+    "skill_level": "Senior",
+    "hourly_rate": 90,
+    "availability": false,
+    "eta_if_unavailable_hours": 4
+  },
+  {
+    "labour_category": "Exhaust",
+    "technician_id": "T013",
+    "skill_level": "Junior",
+    "hourly_rate": 80,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Exhaust System",
+    "technician_id": "T014",
+    "skill_level": "Mid",
+    "hourly_rate": 85,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Exhaust System Service",
+    "technician_id": "T015",
+    "skill_level": "Senior",
+    "hourly_rate": 90,
+    "availability": false,
+    "eta_if_unavailable_hours": 2
+  },
+  {
+    "labour_category": "Fuel System",
+    "technician_id": "T016",
+    "skill_level": "Junior",
+    "hourly_rate": 80,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Fuel System Service",
+    "technician_id": "T017",
+    "skill_level": "Mid",
+    "hourly_rate": 85,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "HVAC",
+    "technician_id": "T018",
+    "skill_level": "Senior",
+    "hourly_rate": 90,
+    "availability": false,
+    "eta_if_unavailable_hours": 3
+  },
+  {
+    "labour_category": "Steering",
+    "technician_id": "T019",
+    "skill_level": "Junior",
+    "hourly_rate": 80,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Steering System Service",
+    "technician_id": "T020",
+    "skill_level": "Mid",
+    "hourly_rate": 85,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Suspension",
+    "technician_id": "T021",
+    "skill_level": "Senior",
+    "hourly_rate": 90,
+    "availability": false,
+    "eta_if_unavailable_hours": 2
+  },
+  {
+    "labour_category": "Suspension & Steering",
+    "technician_id": "T022",
+    "skill_level": "Junior",
+    "hourly_rate": 80,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Suspension Repair",
+    "technician_id": "T023",
+    "skill_level": "Mid",
+    "hourly_rate": 85,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  },
+  {
+    "labour_category": "Transmission",
+    "technician_id": "T024",
+    "skill_level": "Senior",
+    "hourly_rate": 90,
+    "availability": false,
+    "eta_if_unavailable_hours": 5
+  },
+  {
+    "labour_category": "Transmission Service",
+    "technician_id": "T025",
+    "skill_level": "Junior",
+    "hourly_rate": 80,
+    "availability": true,
+    "eta_if_unavailable_hours": 0
+  }
+]

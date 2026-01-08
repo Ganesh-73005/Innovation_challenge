@@ -1,0 +1,2636 @@
+[
+  {
+    "problem_id": "SP001",
+    "problem_name": "Engine Misfire on Acceleration",
+    "detailed_description": [
+      "The engine experiences a noticeable misfire when the driver accelerates above 3000 RPM, causing a loss of power and rough idle."
+    ],
+    "parts_needed": [
+      "PART_001",
+      "PART_002"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 2.5,
+    "estimated_service_time_minutes": 150
+  },
+  {
+    "problem_id": "SP002",
+    "problem_name": "Brake Pedal Softness",
+    "detailed_description": [
+      "The brake pedal feels soft and travels further than normal, reducing braking efficiency."
+    ],
+    "parts_needed": [
+      "PART_003"
+    ],
+    "labour_category": "Brake Service",
+    "estimated_labour_hours": 1.5,
+    "estimated_service_time_minutes": 90
+  },
+  {
+    "problem_id": "SP003",
+    "problem_name": "Battery Not Charging",
+    "detailed_description": [
+      "The vehicle's battery voltage does not increase while the engine is running, indicating a charging system fault."
+    ],
+    "parts_needed": [
+      "PART_004",
+      "PART_005"
+    ],
+    "labour_category": "Electrical",
+    "estimated_labour_hours": 2.0,
+    "estimated_service_time_minutes": 120
+  },
+  {
+    "problem_id": "SP004",
+    "problem_name": "Transmission Slipping",
+    "detailed_description": [
+      "The transmission slips out of gear during acceleration, causing a sudden drop in engine RPM."
+    ],
+    "parts_needed": [
+      "PART_006"
+    ],
+    "labour_category": "Transmission",
+    "estimated_labour_hours": 3.0,
+    "estimated_service_time_minutes": 180
+  },
+  {
+    "problem_id": "SP005",
+    "problem_name": "Air Conditioning Not Cooling",
+    "detailed_description": [
+      "The A/C system blows warm air despite the compressor engaging, indicating a refrigerant or component issue."
+    ],
+    "parts_needed": [
+      "PART_007",
+      "PART_008"
+    ],
+    "labour_category": "Air Conditioning",
+    "estimated_labour_hours": 2.2,
+    "estimated_service_time_minutes": 132
+  },
+  {
+    "problem_id": "SP006",
+    "problem_name": "Steering Wheel Vibration",
+    "detailed_description": [
+      "A noticeable vibration is felt in the steering wheel at highway speeds, suggesting wheel balance or suspension problems."
+    ],
+    "parts_needed": [
+      "PART_009"
+    ],
+    "labour_category": "Suspension",
+    "estimated_labour_hours": 1.8,
+    "estimated_service_time_minutes": 108
+  },
+  {
+    "problem_id": "SP007",
+    "problem_name": "Oil Leak Under Engine",
+    "detailed_description": [
+      "Fresh oil spots are observed under the engine after each drive, indicating a possible gasket or seal failure."
+    ],
+    "parts_needed": [
+      "PART_010"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 2.0,
+    "estimated_service_time_minutes": 120
+  },
+  {
+    "problem_id": "SP008",
+    "problem_name": "ABS Warning Light On",
+    "detailed_description": [
+      "The ABS indicator illuminates on the dashboard, suggesting a sensor or module malfunction."
+    ],
+    "parts_needed": [
+      "PART_011"
+    ],
+    "labour_category": "Brake Service",
+    "estimated_labour_hours": 1.2,
+    "estimated_service_time_minutes": 72
+  },
+  {
+    "problem_id": "SP009",
+    "problem_name": "Check Engine Light \u2013 O2 Sensor",
+    "detailed_description": [
+      "The O2 sensor code triggers the check engine light, causing poor fuel efficiency."
+    ],
+    "parts_needed": [
+      "PART_012"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 1.0,
+    "estimated_service_time_minutes": 60
+  },
+  {
+    "problem_id": "SP010",
+    "problem_name": "Coolant Overheating",
+    "detailed_description": [
+      "Engine coolant temperature rises above normal limits, risking engine damage."
+    ],
+    "parts_needed": [
+      "PART_013",
+      "PART_014"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 2.5,
+    "estimated_service_time_minutes": 150
+  },
+  {
+    "problem_id": "SP011",
+    "problem_name": "Power Steering Fluid Leak",
+    "detailed_description": [
+      "A fluid puddle appears near the front of the vehicle, indicating a power steering system leak."
+    ],
+    "parts_needed": [
+      "PART_015"
+    ],
+    "labour_category": "Suspension",
+    "estimated_labour_hours": 1.5,
+    "estimated_service_time_minutes": 90
+  },
+  {
+    "problem_id": "SP012",
+    "problem_name": "Fuel Pump Failure",
+    "detailed_description": [
+      "The engine cranks but does not start due to insufficient fuel pressure from a faulty pump."
+    ],
+    "parts_needed": [
+      "PART_016"
+    ],
+    "labour_category": "Electrical",
+    "estimated_labour_hours": 2.0,
+    "estimated_service_time_minutes": 120
+  },
+  {
+    "problem_id": "SP013",
+    "problem_name": "Excessive Exhaust Smoke \u2013 Black",
+    "detailed_description": [
+      "Thick black smoke is emitted from the exhaust, indicating a rich fuel mixture or clogged air filter."
+    ],
+    "parts_needed": [
+      "PART_017"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 1.8,
+    "estimated_service_time_minutes": 108
+  },
+  {
+    "problem_id": "SP014",
+    "problem_name": "Worn Front Brake Pads",
+    "detailed_description": [
+      "Brake pads have reached minimum thickness, causing squealing and reduced braking performance."
+    ],
+    "parts_needed": [
+      "PART_018"
+    ],
+    "labour_category": "Brake Service",
+    "estimated_labour_hours": 1.0,
+    "estimated_service_time_minutes": 60
+  },
+  {
+    "problem_id": "SP015",
+    "problem_name": "Faulty Mass Air Flow Sensor",
+    "detailed_description": [
+      "The MAF sensor provides incorrect airflow data, leading to rough idling and stalling."
+    ],
+    "parts_needed": [
+      "PART_019"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 1.2,
+    "estimated_service_time_minutes": 72
+  },
+  {
+    "problem_id": "SP016",
+    "problem_name": "Rear Wheel Bearing Noise",
+    "detailed_description": [
+      "A humming noise increases with vehicle speed, typical of a worn rear wheel bearing."
+    ],
+    "parts_needed": [
+      "PART_020"
+    ],
+    "labour_category": "Suspension",
+    "estimated_labour_hours": 2.0,
+    "estimated_service_time_minutes": 120
+  },
+  {
+    "problem_id": "SP017",
+    "problem_name": "Transmission Fluid Leak",
+    "detailed_description": [
+      "Red fluid is spotted beneath the vehicle, indicating a leak in the transmission system."
+    ],
+    "parts_needed": [
+      "PART_021"
+    ],
+    "labour_category": "Transmission",
+    "estimated_labour_hours": 2.5,
+    "estimated_service_time_minutes": 150
+  },
+  {
+    "problem_id": "SP018",
+    "problem_name": "Heater Not Working",
+    "detailed_description": [
+      "Cabin heating fails to produce warm air despite the engine reaching operating temperature."
+    ],
+    "parts_needed": [
+      "PART_022"
+    ],
+    "labour_category": "Air Conditioning",
+    "estimated_labour_hours": 1.5,
+    "estimated_service_time_minutes": 90
+  },
+  {
+    "problem_id": "SP019",
+    "problem_name": "Spark Plug Fouling",
+    "detailed_description": [
+      "Engine misfires and runs poorly due to carbon-fouled spark plugs."
+    ],
+    "parts_needed": [
+      "PART_023"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 1.0,
+    "estimated_service_time_minutes": 60
+  },
+  {
+    "problem_id": "SP020",
+    "problem_name": "Loose Battery Terminal",
+    "detailed_description": [
+      "Intermittent starting issues caused by corrosion or looseness at the battery terminals."
+    ],
+    "parts_needed": [
+      "PART_024"
+    ],
+    "labour_category": "Electrical",
+    "estimated_labour_hours": 0.5,
+    "estimated_service_time_minutes": 30
+  },
+  {
+    "problem_id": "SP021",
+    "problem_name": "Clutch Slippage",
+    "detailed_description": [
+      "The clutch engages but slips under load, especially during uphill acceleration."
+    ],
+    "parts_needed": [
+      "PART_025"
+    ],
+    "labour_category": "Transmission",
+    "estimated_labour_hours": 3.5,
+    "estimated_service_time_minutes": 210
+  },
+  {
+    "problem_id": "SP022",
+    "problem_name": "Tire Rotation Needed",
+    "detailed_description": [
+      "Uneven tire wear detected, recommending a rotation to extend tire life."
+    ],
+    "parts_needed": [],
+    "labour_category": "General Maintenance",
+    "estimated_labour_hours": 0.8,
+    "estimated_service_time_minutes": 48
+  },
+  {
+    "problem_id": "SP023",
+    "problem_name": "Air Filter Clogged",
+    "detailed_description": [
+      "Reduced engine performance due to a heavily dirty air intake filter."
+    ],
+    "parts_needed": [
+      "PART_026"
+    ],
+    "labour_category": "General Maintenance",
+    "estimated_labour_hours": 0.4,
+    "estimated_service_time_minutes": 24
+  },
+  {
+    "problem_id": "SP024",
+    "problem_name": "Coolant Hose Cracked",
+    "detailed_description": [
+      "A cracked radiator hose leaks coolant, risking overheating if not replaced promptly."
+    ],
+    "parts_needed": [
+      "PART_027"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 1.2,
+    "estimated_service_time_minutes": 72
+  },
+  {
+    "problem_id": "SP025",
+    "problem_name": "Headlight Dimmer Switch Failure",
+    "detailed_description": [
+      "Low beam headlights remain dim regardless of the dimmer switch position, indicating a switch fault."
+    ],
+    "parts_needed": [
+      "PART_028"
+    ],
+    "labour_category": "Electrical",
+    "estimated_labour_hours": 0.7,
+    "estimated_service_time_minutes": 42
+  },
+  {
+    "problem_id": "SP026",
+    "problem_name": "Faulty fuel injector causing rough idle",
+    "detailed_description": [
+      "The engine idles inconsistently due to a clogged fuel injector, leading to vibration and decreased fuel efficiency."
+    ],
+    "parts_needed": [
+      "PART_012"
+    ],
+    "labour_category": "Engine",
+    "estimated_labour_hours": 2.5,
+    "estimated_service_time_minutes": 150
+  },
+  {
+    "problem_id": "SP027",
+    "problem_name": "Worn brake pads and rotor vibration",
+    "detailed_description": [
+      "Brake pads are below minimum thickness, and the rotor shows scoring, causing pulsation when braking."
+    ],
+    "parts_needed": [
+      "PART_023",
+      "PART_024"
+    ],
+    "labour_category": "Brakes",
+    "estimated_labour_hours": 1.8,
+    "estimated_service_time_minutes": 108
+  },
+  {
+    "problem_id": "SP028",
+    "problem_name": "Leaking coolant hose in the radiator",
+    "detailed_description": [
+      "A cracked upper radiator hose is leaking coolant, leading to overheating risk."
+    ],
+    "parts_needed": [
+      "PART_035"
+    ],
+    "labour_category": "Cooling System",
+    "estimated_labour_hours": 1.2,
+    "estimated_service_time_minutes": 72
+  },
+  {
+    "problem_id": "SP029",
+    "problem_name": "Malfunctioning ABS sensor on front left wheel",
+    "detailed_description": [
+      "The ABS sensor voltage is out of range, causing the ABS warning light to illuminate."
+    ],
+    "parts_needed": [
+      "PART_041"
+    ],
+    "labour_category": "Electrical",
+    "estimated_labour_hours": 0.9,
+    "estimated_service_time_minutes": 54
+  },
+  {
+    "problem_id": "SP030",
+    "problem_name": "Transmission fluid low and dirty",
+    "detailed_description": [
+      "Fluid level is below the mark and appears dark, indicating possible internal wear."
+    ],
+    "parts_needed": [
+      "PART_058"
+    ],
+    "labour_category": "Transmission",
+    "estimated_labour_hours": 2.0,
+    "estimated_service_time_minutes": 120
+  },
+  {
+    "problem_id": "SP031",
+    "problem_name": "Failed oxygen sensor leading to rich fuel mixture",
+    "detailed_description": [
+      "The upstream O2 sensor is stuck rich, causing increased emissions and fuel consumption."
+    ],
+    "parts_needed": [
+      "PART_067"
+    ],
+    "labour_category": "Engine",
+    "estimated_labour_hours": 1.0,
+    "estimated_service_time_minutes": 60
+  },
+  {
+    "problem_id": "SP032",
+    "problem_name": "Worn front suspension bushings",
+    "detailed_description": [
+      "Front control arm bushings are cracked, resulting in clunking noises over bumps."
+    ],
+    "parts_needed": [
+      "PART_074",
+      "PART_075"
+    ],
+    "labour_category": "Suspension",
+    "estimated_labour_hours": 2.3,
+    "estimated_service_time_minutes": 138
+  },
+  {
+    "problem_id": "SP033",
+    "problem_name": "Exhaust manifold leak near the gasket",
+    "detailed_description": [
+      "A leak at the exhaust manifold gasket causes a ticking noise and reduced engine performance."
+    ],
+    "parts_needed": [
+      "PART_082"
+    ],
+    "labour_category": "Exhaust",
+    "estimated_labour_hours": 1.5,
+    "estimated_service_time_minutes": 90
+  },
+  {
+    "problem_id": "SP034",
+    "problem_name": "Battery terminal corrosion",
+    "detailed_description": [
+      "Corroded terminals impede proper electrical flow, leading to starting issues."
+    ],
+    "parts_needed": [
+      "PART_091"
+    ],
+    "labour_category": "Electrical",
+    "estimated_labour_hours": 0.4,
+    "estimated_service_time_minutes": 24
+  },
+  {
+    "problem_id": "SP035",
+    "problem_name": "Clogged cabin air filter",
+    "detailed_description": [
+      "The cabin air filter is saturated with debris, reducing HVAC efficiency."
+    ],
+    "parts_needed": [
+      "PART_099"
+    ],
+    "labour_category": "HVAC",
+    "estimated_labour_hours": 0.5,
+    "estimated_service_time_minutes": 30
+  },
+  {
+    "problem_id": "SP036",
+    "problem_name": "Sticking throttle body",
+    "detailed_description": [
+      "Throttle body carbon buildup causes irregular throttle response."
+    ],
+    "parts_needed": [
+      "PART_007"
+    ],
+    "labour_category": "Engine",
+    "estimated_labour_hours": 1.7,
+    "estimated_service_time_minutes": 102
+  },
+  {
+    "problem_id": "SP037",
+    "problem_name": "Rear brake caliper seized",
+    "detailed_description": [
+      "The rear left brake caliper pistons are stuck, resulting in uneven braking force."
+    ],
+    "parts_needed": [
+      "PART_025"
+    ],
+    "labour_category": "Brakes",
+    "estimated_labour_hours": 1.6,
+    "estimated_service_time_minutes": 96
+  },
+  {
+    "problem_id": "SP038",
+    "problem_name": "Coolant temperature sensor failure",
+    "detailed_description": [
+      "Sensor reads incorrect temperature, causing the engine control unit to run rich."
+    ],
+    "parts_needed": [
+      "PART_038"
+    ],
+    "labour_category": "Electrical",
+    "estimated_labour_hours": 0.8,
+    "estimated_service_time_minutes": 48
+  },
+  {
+    "problem_id": "SP039",
+    "problem_name": "Worn drive belt",
+    "detailed_description": [
+      "The serpentine belt shows cracks and glazing, risking loss of power\u2011steering and charging."
+    ],
+    "parts_needed": [
+      "PART_045"
+    ],
+    "labour_category": "Engine",
+    "estimated_labour_hours": 1.1,
+    "estimated_service_time_minutes": 66
+  },
+  {
+    "problem_id": "SP040",
+    "problem_name": "Faulty power steering pump",
+    "detailed_description": [
+      "Pump makes whining noise and provides insufficient steering assistance."
+    ],
+    "parts_needed": [
+      "PART_052"
+    ],
+    "labour_category": "Steering",
+    "estimated_labour_hours": 2.0,
+    "estimated_service_time_minutes": 120
+  },
+  {
+    "problem_id": "SP041",
+    "problem_name": "Rear differential fluid leak",
+    "detailed_description": [
+      "Leak observed at the rear diff cover gasket, leading to low fluid level."
+    ],
+    "parts_needed": [
+      "PART_060"
+    ],
+    "labour_category": "Drivetrain",
+    "estimated_labour_hours": 2.2,
+    "estimated_service_time_minutes": 132
+  },
+  {
+    "problem_id": "SP042",
+    "problem_name": "Failed catalytic converter",
+    "detailed_description": [
+      "Catalytic converter efficiency is below threshold, causing a check engine light."
+    ],
+    "parts_needed": [
+      "PART_069"
+    ],
+    "labour_category": "Exhaust",
+    "estimated_labour_hours": 2.5,
+    "estimated_service_time_minutes": 150
+  },
+  {
+    "problem_id": "SP043",
+    "problem_name": "Air conditioning refrigerant low",
+    "detailed_description": [
+      "System pressure is low, resulting in weak cooling performance."
+    ],
+    "parts_needed": [
+      "PART_078"
+    ],
+    "labour_category": "HVAC",
+    "estimated_labour_hours": 1.3,
+    "estimated_service_time_minutes": 78
+  },
+  {
+    "problem_id": "SP044",
+    "problem_name": "Steering wheel alignment sensor out of range",
+    "detailed_description": [
+      "Sensor data is inconsistent, causing the stability control system to disengage."
+    ],
+    "parts_needed": [
+      "PART_086"
+    ],
+    "labour_category": "Electrical",
+    "estimated_labour_hours": 0.7,
+    "estimated_service_time_minutes": 42
+  },
+  {
+    "problem_id": "SP045",
+    "problem_name": "Damaged windshield wiper motor",
+    "detailed_description": [
+      "Motor stalls intermittently, leaving the windshield partially cleared during rain."
+    ],
+    "parts_needed": [
+      "PART_094"
+    ],
+    "labour_category": "Electrical",
+    "estimated_labour_hours": 0.9,
+    "estimated_service_time_minutes": 54
+  },
+  {
+    "problem_id": "SP046",
+    "problem_name": "Worn rear shock absorbers",
+    "detailed_description": [
+      "Rear shocks have lost damping, causing excessive rear bounce over bumps."
+    ],
+    "parts_needed": [
+      "PART_011"
+    ],
+    "labour_category": "Suspension",
+    "estimated_labour_hours": 2.1,
+    "estimated_service_time_minutes": 126
+  },
+  {
+    "problem_id": "SP047",
+    "problem_name": "Failed fuel pump relay",
+    "detailed_description": [
+      "Relay intermittently cuts power to the fuel pump, leading to stalling during acceleration."
+    ],
+    "parts_needed": [
+      "PART_019"
+    ],
+    "labour_category": "Electrical",
+    "estimated_labour_hours": 0.6,
+    "estimated_service_time_minutes": 36
+  },
+  {
+    "problem_id": "SP048",
+    "problem_name": "Cracked engine oil pan",
+    "detailed_description": [
+      "Oil pan has a visible crack, resulting in oil loss and low oil pressure warnings."
+    ],
+    "parts_needed": [
+      "PART_028"
+    ],
+    "labour_category": "Engine",
+    "estimated_labour_hours": 3.0,
+    "estimated_service_time_minutes": 180
+  },
+  {
+    "problem_id": "SP049",
+    "problem_name": "Faulty rear view camera",
+    "detailed_description": [
+      "Camera image is distorted and sometimes fails to display, compromising rear visibility."
+    ],
+    "parts_needed": [
+      "PART_036"
+    ],
+    "labour_category": "Electrical",
+    "estimated_labour_hours": 0.8,
+    "estimated_service_time_minutes": 48
+  },
+  {
+    "problem_id": "SP050",
+    "problem_name": "Loose wheel bearing on front right",
+    "detailed_description": [
+      "Bearing produces grinding noise at higher speeds and shows excessive play when inspected."
+    ],
+    "parts_needed": [
+      "PART_047"
+    ],
+    "labour_category": "Brakes",
+    "estimated_labour_hours": 2.4,
+    "estimated_service_time_minutes": 144
+  },
+  {
+    "problem_id": "SP051",
+    "problem_name": "Engine misfire on acceleration",
+    "detailed_description": [
+      "The engine stumbles and loses power when the driver steps on the accelerator.",
+      "Diagnostic codes indicate a possible ignition coil failure."
+    ],
+    "parts_needed": [
+      "PART_001",
+      "PART_002"
+    ],
+    "labour_category": "Engine",
+    "estimated_labour_hours": 2.5,
+    "estimated_service_time_minutes": 150
+  },
+  {
+    "problem_id": "SP052",
+    "problem_name": "Brake pedal spongy feel",
+    "detailed_description": [
+      "Driver reports a soft, spongy brake pedal that requires extra travel before the brakes engage."
+    ],
+    "parts_needed": [
+      "PART_003"
+    ],
+    "labour_category": "Brakes",
+    "estimated_labour_hours": 1.8,
+    "estimated_service_time_minutes": 108
+  },
+  {
+    "problem_id": "SP053",
+    "problem_name": "Transmission slipping during gear shifts",
+    "detailed_description": [
+      "Vehicle experiences delayed engagement and occasional slipping when shifting between gears."
+    ],
+    "parts_needed": [
+      "PART_004"
+    ],
+    "labour_category": "Transmission",
+    "estimated_labour_hours": 3.0,
+    "estimated_service_time_minutes": 180
+  },
+  {
+    "problem_id": "SP054",
+    "problem_name": "Air conditioning not cooling",
+    "detailed_description": [
+      "The cabin temperature remains high despite the AC being set to the coldest setting."
+    ],
+    "parts_needed": [
+      "PART_005"
+    ],
+    "labour_category": "HVAC",
+    "estimated_labour_hours": 2.0,
+    "estimated_service_time_minutes": 120
+  },
+  {
+    "problem_id": "SP055",
+    "problem_name": "Battery drain after shutdown",
+    "detailed_description": [
+      "Vehicle fails to start in the morning; battery voltage drops significantly after the car is turned off."
+    ],
+    "parts_needed": [
+      "PART_006"
+    ],
+    "labour_category": "Electrical",
+    "estimated_labour_hours": 1.2,
+    "estimated_service_time_minutes": 72
+  },
+  {
+    "problem_id": "SP056",
+    "problem_name": "Steering wheel vibration at highway speeds",
+    "detailed_description": [
+      "The steering wheel shakes noticeably when driving above 65 mph."
+    ],
+    "parts_needed": [
+      "PART_007",
+      "PART_008"
+    ],
+    "labour_category": "Steering",
+    "estimated_labour_hours": 2.2,
+    "estimated_service_time_minutes": 132
+  },
+  {
+    "problem_id": "SP057",
+    "problem_name": "Coolant leak near radiator",
+    "detailed_description": [
+      "Visible coolant puddle under the vehicle; temperature gauge rises rapidly."
+    ],
+    "parts_needed": [
+      "PART_009"
+    ],
+    "labour_category": "Cooling System",
+    "estimated_labour_hours": 1.5,
+    "estimated_service_time_minutes": 90
+  },
+  {
+    "problem_id": "SP058",
+    "problem_name": "Check Engine Light \u2013 O2 sensor failure",
+    "detailed_description": [
+      "OBD-II scan shows P0135 code indicating a heated oxygen sensor malfunction."
+    ],
+    "parts_needed": [
+      "PART_010"
+    ],
+    "labour_category": "Engine",
+    "estimated_labour_hours": 1.0,
+    "estimated_service_time_minutes": 60
+  },
+  {
+    "problem_id": "SP059",
+    "problem_name": "Fuel pump noisy operation",
+    "detailed_description": [
+      "A loud whining noise is heard from the fuel tank area during acceleration."
+    ],
+    "parts_needed": [
+      "PART_011"
+    ],
+    "labour_category": "Fuel System",
+    "estimated_labour_hours": 2.1,
+    "estimated_service_time_minutes": 126
+  },
+  {
+    "problem_id": "SP060",
+    "problem_name": "Exhaust rattling at idle",
+    "detailed_description": [
+      "Metallic rattling noise from the exhaust system when the engine is idling."
+    ],
+    "parts_needed": [
+      "PART_012"
+    ],
+    "labour_category": "Exhaust",
+    "estimated_labour_hours": 1.4,
+    "estimated_service_time_minutes": 84
+  },
+  {
+    "problem_id": "SP061",
+    "problem_name": "Power steering fluid leak",
+    "detailed_description": [
+      "Puddles of amber fluid appear under the front of the vehicle; steering feels heavy."
+    ],
+    "parts_needed": [
+      "PART_013"
+    ],
+    "labour_category": "Steering",
+    "estimated_labour_hours": 1.6,
+    "estimated_service_time_minutes": 96
+  },
+  {
+    "problem_id": "SP062",
+    "problem_name": "Rear brake squeal",
+    "detailed_description": [
+      "High-pitched squeaking noise from the rear brakes during light braking."
+    ],
+    "parts_needed": [
+      "PART_014"
+    ],
+    "labour_category": "Brakes",
+    "estimated_labour_hours": 1.0,
+    "estimated_service_time_minutes": 60
+  },
+  {
+    "problem_id": "SP063",
+    "problem_name": "Engine coolant temperature sensor faulty",
+    "detailed_description": [
+      "Temperature gauge reads erratically; diagnostic code P0115 present."
+    ],
+    "parts_needed": [
+      "PART_015"
+    ],
+    "labour_category": "Cooling System",
+    "estimated_labour_hours": 0.9,
+    "estimated_service_time_minutes": 54
+  },
+  {
+    "problem_id": "SP064",
+    "problem_name": "Transmission fluid low",
+    "detailed_description": [
+      "Transmission fluid dipstick shows low level; shifting feels rough."
+    ],
+    "parts_needed": [
+      "PART_016"
+    ],
+    "labour_category": "Transmission",
+    "estimated_labour_hours": 0.8,
+    "estimated_service_time_minutes": 48
+  },
+  {
+    "problem_id": "SP065",
+    "problem_name": "Headlight dimming intermittently",
+    "detailed_description": [
+      "Both headlights dim and brighten unpredictably while driving."
+    ],
+    "parts_needed": [
+      "PART_017"
+    ],
+    "labour_category": "Electrical",
+    "estimated_labour_hours": 1.3,
+    "estimated_service_time_minutes": 78
+  },
+  {
+    "problem_id": "SP066",
+    "problem_name": "Suspension clunk on bumps",
+    "detailed_description": [
+      "A noticeable clunk is heard when the vehicle passes over potholes or speed bumps."
+    ],
+    "parts_needed": [
+      "PART_018",
+      "PART_019"
+    ],
+    "labour_category": "Suspension",
+    "estimated_labour_hours": 2.7,
+    "estimated_service_time_minutes": 162
+  },
+  {
+    "problem_id": "SP067",
+    "problem_name": "Turbocharger boost pressure low",
+    "detailed_description": [
+      "Turbo boost gauge reads below expected levels; engine lacks power at high RPM."
+    ],
+    "parts_needed": [
+      "PART_020"
+    ],
+    "labour_category": "Engine",
+    "estimated_labour_hours": 3.2,
+    "estimated_service_time_minutes": 192
+  },
+  {
+    "problem_id": "SP068",
+    "problem_name": "Fuel injector leaking",
+    "detailed_description": [
+      "Rich fuel smell around the engine bay; fuel trim readings indicate a leak."
+    ],
+    "parts_needed": [
+      "PART_021"
+    ],
+    "labour_category": "Fuel System",
+    "estimated_labour_hours": 2.4,
+    "estimated_service_time_minutes": 144
+  },
+  {
+    "problem_id": "SP069",
+    "problem_name": "Rear window defroster not working",
+    "detailed_description": [
+      "Rear glass remains fogged despite activating the defroster switch."
+    ],
+    "parts_needed": [
+      "PART_022"
+    ],
+    "labour_category": "HVAC",
+    "estimated_labour_hours": 1.1,
+    "estimated_service_time_minutes": 66
+  },
+  {
+    "problem_id": "SP070",
+    "problem_name": "Catalytic converter efficiency low",
+    "detailed_description": [
+      "Emissions test fails; OBD-II code P0420 indicates catalyst efficiency below threshold."
+    ],
+    "parts_needed": [
+      "PART_023"
+    ],
+    "labour_category": "Exhaust",
+    "estimated_labour_hours": 2.9,
+    "estimated_service_time_minutes": 174
+  },
+  {
+    "problem_id": "SP071",
+    "problem_name": "Steering rack leak",
+    "detailed_description": [
+      "Power steering fluid drips from the steering rack area; steering feels inconsistent."
+    ],
+    "parts_needed": [
+      "PART_024"
+    ],
+    "labour_category": "Steering",
+    "estimated_labour_hours": 2.0,
+    "estimated_service_time_minutes": 120
+  },
+  {
+    "problem_id": "SP072",
+    "problem_name": "ABS warning light on",
+    "detailed_description": [
+      "ABS indicator illuminates on the dashboard; diagnostic shows a wheel speed sensor fault."
+    ],
+    "parts_needed": [
+      "PART_025"
+    ],
+    "labour_category": "Brakes",
+    "estimated_labour_hours": 1.7,
+    "estimated_service_time_minutes": 102
+  },
+  {
+    "problem_id": "SP073",
+    "problem_name": "Engine coolant overheating",
+    "detailed_description": [
+      "Engine temperature rises rapidly after a short drive; thermostat may be stuck closed."
+    ],
+    "parts_needed": [
+      "PART_026"
+    ],
+    "labour_category": "Cooling System",
+    "estimated_labour_hours": 2.3,
+    "estimated_service_time_minutes": 138
+  },
+  {
+    "problem_id": "SP074",
+    "problem_name": "Front suspension sagging",
+    "detailed_description": [
+      "Vehicle sits lower in the front after loading; front springs appear weakened."
+    ],
+    "parts_needed": [
+      "PART_027"
+    ],
+    "labour_category": "Suspension",
+    "estimated_labour_hours": 2.5,
+    "estimated_service_time_minutes": 150
+  },
+  {
+    "problem_id": "SP075",
+    "problem_name": "Ignition switch intermittent failure",
+    "detailed_description": [
+      "Engine sometimes does not start when turning the key; the ignition switch may be worn."
+    ],
+    "parts_needed": [
+      "PART_028"
+    ],
+    "labour_category": "Electrical",
+    "estimated_labour_hours": 1.5,
+    "estimated_service_time_minutes": 90
+  },
+  {
+    "problem_id": "SP076",
+    "problem_name": "Engine oil leak from valve cover gasket",
+    "detailed_description": [
+      "Oil seeping from the valve cover area during operation, causing low oil level warnings."
+    ],
+    "parts_needed": [
+      "PART_001"
+    ],
+    "labour_category": "Oil & Filter Service",
+    "estimated_labour_hours": 1.5,
+    "estimated_service_time_minutes": 90
+  },
+  {
+    "problem_id": "SP077",
+    "problem_name": "Worn front brake pads",
+    "detailed_description": [
+      "Squeaking noise when braking and reduced stopping distance."
+    ],
+    "parts_needed": [
+      "PART_002"
+    ],
+    "labour_category": "Brake Service",
+    "estimated_labour_hours": 1.0,
+    "estimated_service_time_minutes": 60
+  },
+  {
+    "problem_id": "SP078",
+    "problem_name": "Clogged air intake filter",
+    "detailed_description": [
+      "Reduced engine performance and rough idle due to restricted airflow."
+    ],
+    "parts_needed": [
+      "PART_003"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 0.5,
+    "estimated_service_time_minutes": 30
+  },
+  {
+    "problem_id": "SP079",
+    "problem_name": "Faulty spark plugs causing misfire",
+    "detailed_description": [
+      "Engine misfires under load and check\u2011engine light is illuminated."
+    ],
+    "parts_needed": [
+      "PART_004"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 1.2,
+    "estimated_service_time_minutes": 72
+  },
+  {
+    "problem_id": "SP080",
+    "problem_name": "Battery not holding charge",
+    "detailed_description": [
+      "Vehicle struggles to start and electrical accessories dim."
+    ],
+    "parts_needed": [
+      "PART_005"
+    ],
+    "labour_category": "Electrical System",
+    "estimated_labour_hours": 0.8,
+    "estimated_service_time_minutes": 48
+  },
+  {
+    "problem_id": "SP081",
+    "problem_name": "Radiator hose rupture",
+    "detailed_description": [
+      "Coolant loss and overheating after short drives."
+    ],
+    "parts_needed": [
+      "PART_006"
+    ],
+    "labour_category": "Cooling System",
+    "estimated_labour_hours": 1.5,
+    "estimated_service_time_minutes": 90
+  },
+  {
+    "problem_id": "SP082",
+    "problem_name": "Clutch slipping",
+    "detailed_description": [
+      "Engine revs increase without corresponding acceleration."
+    ],
+    "parts_needed": [
+      "PART_007"
+    ],
+    "labour_category": "Transmission Service",
+    "estimated_labour_hours": 3.5,
+    "estimated_service_time_minutes": 210
+  },
+  {
+    "problem_id": "SP083",
+    "problem_name": "Fuel pump failure",
+    "detailed_description": [
+      "Engine stalls at low speeds and fuel pressure is low."
+    ],
+    "parts_needed": [
+      "PART_008"
+    ],
+    "labour_category": "Fuel System",
+    "estimated_labour_hours": 2.0,
+    "estimated_service_time_minutes": 120
+  },
+  {
+    "problem_id": "SP084",
+    "problem_name": "Alternator not charging battery",
+    "detailed_description": [
+      "Battery voltage drops while driving; dashboard warning light on."
+    ],
+    "parts_needed": [
+      "PART_009"
+    ],
+    "labour_category": "Electrical System",
+    "estimated_labour_hours": 1.8,
+    "estimated_service_time_minutes": 108
+  },
+  {
+    "problem_id": "SP085",
+    "problem_name": "Cabin air filter replacement",
+    "detailed_description": [
+      "Reduced HVAC airflow and musty odor inside vehicle."
+    ],
+    "parts_needed": [
+      "PART_010"
+    ],
+    "labour_category": "HVAC Service",
+    "estimated_labour_hours": 0.6,
+    "estimated_service_time_minutes": 36
+  },
+  {
+    "problem_id": "SP086",
+    "problem_name": "Timing belt wear",
+    "detailed_description": [
+      "Ticking noise from engine and risk of belt failure imminent."
+    ],
+    "parts_needed": [
+      "PART_011"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 4.0,
+    "estimated_service_time_minutes": 240
+  },
+  {
+    "problem_id": "SP087",
+    "problem_name": "Rear shock absorber leakage",
+    "detailed_description": [
+      "Excessive bounce and fluid seepage from shock absorber."
+    ],
+    "parts_needed": [
+      "PART_012"
+    ],
+    "labour_category": "Suspension Service",
+    "estimated_labour_hours": 1.4,
+    "estimated_service_time_minutes": 84
+  },
+  {
+    "problem_id": "SP088",
+    "problem_name": "Thermostat stuck open",
+    "detailed_description": [
+      "Engine runs cold, heater does not produce warm air."
+    ],
+    "parts_needed": [
+      "PART_013"
+    ],
+    "labour_category": "Cooling System",
+    "estimated_labour_hours": 1.0,
+    "estimated_service_time_minutes": 60
+  },
+  {
+    "problem_id": "SP089",
+    "problem_name": "Serpentine belt fraying",
+    "detailed_description": [
+      "Squealing noise on start\u2011up; belt shows visible cracks."
+    ],
+    "parts_needed": [
+      "PART_014"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 0.9,
+    "estimated_service_time_minutes": 54
+  },
+  {
+    "problem_id": "SP090",
+    "problem_name": "Wheel bearing failure (front left)",
+    "detailed_description": [
+      "Grinding noise that increases with speed; steering feel degraded."
+    ],
+    "parts_needed": [
+      "PART_015"
+    ],
+    "labour_category": "Suspension Service",
+    "estimated_labour_hours": 2.2,
+    "estimated_service_time_minutes": 132
+  },
+  {
+    "problem_id": "SP091",
+    "problem_name": "Oil filter clogged",
+    "detailed_description": [
+      "Engine warning light on; oil pressure low after long drives."
+    ],
+    "parts_needed": [
+      "PART_001"
+    ],
+    "labour_category": "Oil & Filter Service",
+    "estimated_labour_hours": 0.5,
+    "estimated_service_time_minutes": 30
+  },
+  {
+    "problem_id": "SP092",
+    "problem_name": "Rear brake pad wear",
+    "detailed_description": [
+      "Brake pedal feels soft and rear brake squeal audible."
+    ],
+    "parts_needed": [
+      "PART_002"
+    ],
+    "labour_category": "Brake Service",
+    "estimated_labour_hours": 1.1,
+    "estimated_service_time_minutes": 66
+  },
+  {
+    "problem_id": "SP093",
+    "problem_name": "Fuel injector leak",
+    "detailed_description": [
+      "Fuel odor near engine bay and rough idle."
+    ],
+    "parts_needed": [
+      "PART_008"
+    ],
+    "labour_category": "Fuel System",
+    "estimated_labour_hours": 2.5,
+    "estimated_service_time_minutes": 150
+  },
+  {
+    "problem_id": "SP094",
+    "problem_name": "Air conditioning refrigerant low",
+    "detailed_description": [
+      "AC blows warm air; system pressure test shows low refrigerant."
+    ],
+    "parts_needed": [],
+    "labour_category": "HVAC Service",
+    "estimated_labour_hours": 1.3,
+    "estimated_service_time_minutes": 78
+  },
+  {
+    "problem_id": "SP095",
+    "problem_name": "Steering rack fluid leak",
+    "detailed_description": [
+      "Power steering feels heavy and fluid puddles under vehicle."
+    ],
+    "parts_needed": [],
+    "labour_category": "Steering & Alignment",
+    "estimated_labour_hours": 2.0,
+    "estimated_service_time_minutes": 120
+  },
+  {
+    "problem_id": "SP096",
+    "problem_name": "Exhaust manifold crack",
+    "detailed_description": [
+      "Loud ticking noise and exhaust fumes entering cabin."
+    ],
+    "parts_needed": [],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 3.0,
+    "estimated_service_time_minutes": 180
+  },
+  {
+    "problem_id": "SP097",
+    "problem_name": "Transmission fluid low",
+    "detailed_description": [
+      "Gear shifts become harsh; fluid dipstick shows low level."
+    ],
+    "parts_needed": [],
+    "labour_category": "Transmission Service",
+    "estimated_labour_hours": 1.2,
+    "estimated_service_time_minutes": 72
+  },
+  {
+    "problem_id": "SP098",
+    "problem_name": "Headlight bulb out",
+    "detailed_description": [
+      "Low beam not illuminating; bulb appears burnt out."
+    ],
+    "parts_needed": [],
+    "labour_category": "Electrical System",
+    "estimated_labour_hours": 0.3,
+    "estimated_service_time_minutes": 18
+  },
+  {
+    "problem_id": "SP099",
+    "problem_name": "Coolant level low",
+    "detailed_description": [
+      "Engine temperature climbs quickly; coolant reservoir is below minimum."
+    ],
+    "parts_needed": [],
+    "labour_category": "Cooling System",
+    "estimated_labour_hours": 0.4,
+    "estimated_service_time_minutes": 24
+  },
+  {
+    "problem_id": "SP100",
+    "problem_name": "Rear suspension bushings worn",
+    "detailed_description": [
+      "Clunking noise over bumps and uneven tire wear."
+    ],
+    "parts_needed": [],
+    "labour_category": "Suspension Service",
+    "estimated_labour_hours": 2.3,
+    "estimated_service_time_minutes": 138
+  },
+  {
+    "problem_id": "SP101",
+    "problem_name": "Worn Front Brake Pads",
+    "detailed_description": [
+      "Front brake pads have thinned below minimum thickness, causing reduced braking efficiency and squealing noise."
+    ],
+    "parts_needed": [
+      "PART_001"
+    ],
+    "labour_category": "Brake Service",
+    "estimated_labour_hours": 1.2,
+    "estimated_service_time_minutes": 72
+  },
+  {
+    "problem_id": "SP102",
+    "problem_name": "Leaking Engine Oil",
+    "detailed_description": [
+      "Oil is seeping from the valve cover gasket, leading to low oil levels and potential engine damage."
+    ],
+    "parts_needed": [
+      "PART_002",
+      "PART_003"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 2.5,
+    "estimated_service_time_minutes": 150
+  },
+  {
+    "problem_id": "SP103",
+    "problem_name": "Battery Replacement",
+    "detailed_description": [
+      "Vehicle battery no longer holds charge, causing starting issues and dimming lights."
+    ],
+    "parts_needed": [
+      "PART_004"
+    ],
+    "labour_category": "Electrical",
+    "estimated_labour_hours": 0.8,
+    "estimated_service_time_minutes": 48
+  },
+  {
+    "problem_id": "SP104",
+    "problem_name": "Clogged Fuel Filter",
+    "detailed_description": [
+      "Fuel filter is blocked, resulting in poor engine performance and reduced fuel efficiency."
+    ],
+    "parts_needed": [
+      "PART_005"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 1.0,
+    "estimated_service_time_minutes": 60
+  },
+  {
+    "problem_id": "SP105",
+    "problem_name": "Faulty Oxygen Sensor",
+    "detailed_description": [
+      "Oxygen sensor is providing inaccurate readings, causing rich fuel mixture and increased emissions."
+    ],
+    "parts_needed": [
+      "PART_006"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 1.3,
+    "estimated_service_time_minutes": 78
+  },
+  {
+    "problem_id": "SP106",
+    "problem_name": "Rear Wheel Bearing Failure",
+    "detailed_description": [
+      "Rear wheel bearing is worn, producing grinding noise and steering instability."
+    ],
+    "parts_needed": [
+      "PART_007"
+    ],
+    "labour_category": "Suspension",
+    "estimated_labour_hours": 2.0,
+    "estimated_service_time_minutes": 120
+  },
+  {
+    "problem_id": "SP107",
+    "problem_name": "Air Conditioning Refrigerant Leak",
+    "detailed_description": [
+      "Refrigerant is leaking from the AC hose, resulting in reduced cooling performance."
+    ],
+    "parts_needed": [
+      "PART_008"
+    ],
+    "labour_category": "Cooling System",
+    "estimated_labour_hours": 1.5,
+    "estimated_service_time_minutes": 90
+  },
+  {
+    "problem_id": "SP108",
+    "problem_name": "Failed Spark Plug(s)",
+    "detailed_description": [
+      "One or more spark plugs are fouled, causing misfires and rough idle."
+    ],
+    "parts_needed": [
+      "PART_009",
+      "PART_010"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 0.9,
+    "estimated_service_time_minutes": 54
+  },
+  {
+    "problem_id": "SP109",
+    "problem_name": "Transmission Fluid Leak",
+    "detailed_description": [
+      "Leak detected at the transmission pan gasket, risking low fluid levels and gear wear."
+    ],
+    "parts_needed": [
+      "PART_011"
+    ],
+    "labour_category": "Transmission",
+    "estimated_labour_hours": 2.8,
+    "estimated_service_time_minutes": 168
+  },
+  {
+    "problem_id": "SP110",
+    "problem_name": "Worn Serpentine Belt",
+    "detailed_description": [
+      "Serpentine belt shows cracking and fraying, threatening loss of power\u2011steering and alternator drive."
+    ],
+    "parts_needed": [
+      "PART_012"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 1.1,
+    "estimated_service_time_minutes": 66
+  },
+  {
+    "problem_id": "SP111",
+    "problem_name": "Faulty Power Steering Pump",
+    "detailed_description": [
+      "Power steering pump makes whining noise and provides insufficient assistance."
+    ],
+    "parts_needed": [
+      "PART_013"
+    ],
+    "labour_category": "Suspension",
+    "estimated_labour_hours": 2.2,
+    "estimated_service_time_minutes": 132
+  },
+  {
+    "problem_id": "SP112",
+    "problem_name": "Coolant Temperature Sensor Failure",
+    "detailed_description": [
+      "Sensor is sending incorrect temperature data, causing engine overheating warnings."
+    ],
+    "parts_needed": [
+      "PART_014"
+    ],
+    "labour_category": "Cooling System",
+    "estimated_labour_hours": 0.7,
+    "estimated_service_time_minutes": 42
+  },
+  {
+    "problem_id": "SP113",
+    "problem_name": "Damaged Exhaust Muffler",
+    "detailed_description": [
+      "Muffler is rusted through, producing loud exhaust noise and possible emissions issues."
+    ],
+    "parts_needed": [
+      "PART_015"
+    ],
+    "labour_category": "Exhaust",
+    "estimated_labour_hours": 1.4,
+    "estimated_service_time_minutes": 84
+  },
+  {
+    "problem_id": "SP114",
+    "problem_name": "Faulty Door Lock Actuator",
+    "detailed_description": [
+      "Actuator does not respond to remote unlock commands, leaving doors stuck."
+    ],
+    "parts_needed": [
+      "PART_016"
+    ],
+    "labour_category": "Electrical",
+    "estimated_labour_hours": 0.9,
+    "estimated_service_time_minutes": 54
+  },
+  {
+    "problem_id": "SP115",
+    "problem_name": "Worn Front Suspension Bushings",
+    "detailed_description": [
+      "Front control arm bushings are cracked, causing clunking noises over bumps."
+    ],
+    "parts_needed": [
+      "PART_017"
+    ],
+    "labour_category": "Suspension",
+    "estimated_labour_hours": 2.3,
+    "estimated_service_time_minutes": 138
+  },
+  {
+    "problem_id": "SP116",
+    "problem_name": "Low Tire Pressure Sensor Malfunction",
+    "detailed_description": [
+      "TPMS sensor not transmitting pressure data, leading to warning light activation."
+    ],
+    "parts_needed": [
+      "PART_018"
+    ],
+    "labour_category": "Electrical",
+    "estimated_labour_hours": 0.5,
+    "estimated_service_time_minutes": 30
+  },
+  {
+    "problem_id": "SP117",
+    "problem_name": "Failed Alternator",
+    "detailed_description": [
+      "Alternator is not charging the battery, causing dim lights and eventual stall."
+    ],
+    "parts_needed": [
+      "PART_019"
+    ],
+    "labour_category": "Electrical",
+    "estimated_labour_hours": 1.6,
+    "estimated_service_time_minutes": 96
+  },
+  {
+    "problem_id": "SP118",
+    "problem_name": "Clogged Cabin Air Filter",
+    "detailed_description": [
+      "Cabin air filter is heavily loaded, reducing HVAC airflow and causing odors."
+    ],
+    "parts_needed": [
+      "PART_020"
+    ],
+    "labour_category": "HVAC",
+    "estimated_labour_hours": 0.4,
+    "estimated_service_time_minutes": 24
+  },
+  {
+    "problem_id": "SP119",
+    "problem_name": "Rear Brake Caliper Sticking",
+    "detailed_description": [
+      "Caliper piston is seized, causing the rear brake to drag and overheating."
+    ],
+    "parts_needed": [
+      "PART_021"
+    ],
+    "labour_category": "Brake Service",
+    "estimated_labour_hours": 1.8,
+    "estimated_service_time_minutes": 108
+  },
+  {
+    "problem_id": "SP120",
+    "problem_name": "Faulty Mass Air Flow Sensor",
+    "detailed_description": [
+      "MAF sensor provides erratic readings, leading to poor throttle response."
+    ],
+    "parts_needed": [
+      "PART_022"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 1.2,
+    "estimated_service_time_minutes": 72
+  },
+  {
+    "problem_id": "SP121",
+    "problem_name": "Worn Drive Belt Tensioner",
+    "detailed_description": [
+      "Tensioner pulley is weak, causing belt slip and accessory noise."
+    ],
+    "parts_needed": [
+      "PART_023"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 1.0,
+    "estimated_service_time_minutes": 60
+  },
+  {
+    "problem_id": "SP122",
+    "problem_name": "Leaking Power Steering Fluid Reservoir",
+    "detailed_description": [
+      "Crack in the reservoir results in fluid loss and steering difficulty."
+    ],
+    "parts_needed": [
+      "PART_024"
+    ],
+    "labour_category": "Suspension",
+    "estimated_labour_hours": 0.9,
+    "estimated_service_time_minutes": 54
+  },
+  {
+    "problem_id": "SP123",
+    "problem_name": "Failed Catalytic Converter",
+    "detailed_description": [
+      "Converter is clogged, causing reduced power and failed emissions test."
+    ],
+    "parts_needed": [
+      "PART_025"
+    ],
+    "labour_category": "Exhaust",
+    "estimated_labour_hours": 2.0,
+    "estimated_service_time_minutes": 120
+  },
+  {
+    "problem_id": "SP124",
+    "problem_name": "Broken Front Headlight Assembly",
+    "detailed_description": [
+      "Headlight housing cracked, allowing moisture ingress and reduced illumination."
+    ],
+    "parts_needed": [
+      "PART_026"
+    ],
+    "labour_category": "Electrical",
+    "estimated_labour_hours": 1.1,
+    "estimated_service_time_minutes": 66
+  },
+  {
+    "problem_id": "SP125",
+    "problem_name": "Faulty Engine Coolant Thermostat",
+    "detailed_description": [
+      "Thermostat is stuck open, causing the engine to run too cool and affecting fuel economy."
+    ],
+    "parts_needed": [
+      "PART_027"
+    ],
+    "labour_category": "Cooling System",
+    "estimated_labour_hours": 1.3,
+    "estimated_service_time_minutes": 78
+  },
+  {
+    "problem_id": "SP126",
+    "problem_name": "Engine Misfire",
+    "detailed_description": [
+      "The engine is misfiring under load, causing rough idle and loss of power."
+    ],
+    "parts_needed": [
+      "PART_001",
+      "PART_002"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 2.5,
+    "estimated_service_time_minutes": 150
+  },
+  {
+    "problem_id": "SP127",
+    "problem_name": "Brake Pad Wear",
+    "detailed_description": [
+      "Front brake pads are worn below minimum thickness and need replacement."
+    ],
+    "parts_needed": [
+      "PART_003"
+    ],
+    "labour_category": "Brake Service",
+    "estimated_labour_hours": 1.0,
+    "estimated_service_time_minutes": 60
+  },
+  {
+    "problem_id": "SP128",
+    "problem_name": "Coolant Leak",
+    "detailed_description": [
+      "Coolant is leaking from the radiator hose, leading to overheating."
+    ],
+    "parts_needed": [
+      "PART_004",
+      "PART_005"
+    ],
+    "labour_category": "Cooling System",
+    "estimated_labour_hours": 1.8,
+    "estimated_service_time_minutes": 108
+  },
+  {
+    "problem_id": "SP129",
+    "problem_name": "Battery Drain",
+    "detailed_description": [
+      "Vehicle battery loses charge overnight, causing a no-start condition."
+    ],
+    "parts_needed": [
+      "PART_006"
+    ],
+    "labour_category": "Electrical",
+    "estimated_labour_hours": 0.7,
+    "estimated_service_time_minutes": 42
+  },
+  {
+    "problem_id": "SP130",
+    "problem_name": "Transmission Slipping",
+    "detailed_description": [
+      "Gear shifts are slipping, especially when accelerating from a stop."
+    ],
+    "parts_needed": [
+      "PART_007",
+      "PART_008"
+    ],
+    "labour_category": "Transmission",
+    "estimated_labour_hours": 3.0,
+    "estimated_service_time_minutes": 180
+  },
+  {
+    "problem_id": "SP131",
+    "problem_name": "Air Conditioning No Cool",
+    "detailed_description": [
+      "AC system blows warm air despite compressor engagement."
+    ],
+    "parts_needed": [
+      "PART_009"
+    ],
+    "labour_category": "Air Conditioning",
+    "estimated_labour_hours": 1.5,
+    "estimated_service_time_minutes": 90
+  },
+  {
+    "problem_id": "SP132",
+    "problem_name": "Steering Wheel Vibration",
+    "detailed_description": [
+      "Noticeable vibration in steering wheel at speeds above 50 mph."
+    ],
+    "parts_needed": [
+      "PART_010"
+    ],
+    "labour_category": "Suspension",
+    "estimated_labour_hours": 1.2,
+    "estimated_service_time_minutes": 72
+  },
+  {
+    "problem_id": "SP133",
+    "problem_name": "Exhaust Smoke \u2013 Black",
+    "detailed_description": [
+      "Thick black smoke emitted during acceleration, indicating rich fuel mixture."
+    ],
+    "parts_needed": [
+      "PART_011"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 2.0,
+    "estimated_service_time_minutes": 120
+  },
+  {
+    "problem_id": "SP134",
+    "problem_name": "Faulty Oxygen Sensor",
+    "detailed_description": [
+      "Check engine light triggered, O2 sensor voltage out of range."
+    ],
+    "parts_needed": [
+      "PART_012"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 0.9,
+    "estimated_service_time_minutes": 54
+  },
+  {
+    "problem_id": "SP135",
+    "problem_name": "Worn Tie Rod Ends",
+    "detailed_description": [
+      "Loose steering feel and uneven tire wear due to worn tie rod ends."
+    ],
+    "parts_needed": [
+      "PART_013"
+    ],
+    "labour_category": "Suspension",
+    "estimated_labour_hours": 1.4,
+    "estimated_service_time_minutes": 84
+  },
+  {
+    "problem_id": "SP136",
+    "problem_name": "Clutch Slippage",
+    "detailed_description": [
+      "Clutch engages but slips under load, causing RPM rise without acceleration."
+    ],
+    "parts_needed": [
+      "PART_014",
+      "PART_015"
+    ],
+    "labour_category": "Transmission",
+    "estimated_labour_hours": 3.5,
+    "estimated_service_time_minutes": 210
+  },
+  {
+    "problem_id": "SP137",
+    "problem_name": "Headlight Dimness",
+    "detailed_description": [
+      "Both low-beam headlights appear dim, reducing nighttime visibility."
+    ],
+    "parts_needed": [
+      "PART_016"
+    ],
+    "labour_category": "Electrical",
+    "estimated_labour_hours": 0.6,
+    "estimated_service_time_minutes": 36
+  },
+  {
+    "problem_id": "SP138",
+    "problem_name": "Fuel Pump Failure",
+    "detailed_description": [
+      "Engine cranks but does not start due to insufficient fuel pressure."
+    ],
+    "parts_needed": [
+      "PART_017"
+    ],
+    "labour_category": "Fuel System",
+    "estimated_labour_hours": 2.2,
+    "estimated_service_time_minutes": 132
+  },
+  {
+    "problem_id": "SP139",
+    "problem_name": "Rear Brake Noise",
+    "detailed_description": [
+      "Squealing noise from rear brakes when applying pressure."
+    ],
+    "parts_needed": [
+      "PART_018"
+    ],
+    "labour_category": "Brake Service",
+    "estimated_labour_hours": 0.8,
+    "estimated_service_time_minutes": 48
+  },
+  {
+    "problem_id": "SP140",
+    "problem_name": "Power Steering Fluid Leak",
+    "detailed_description": [
+      "Low power steering fluid level causing stiff steering."
+    ],
+    "parts_needed": [
+      "PART_019"
+    ],
+    "labour_category": "Suspension",
+    "estimated_labour_hours": 1.0,
+    "estimated_service_time_minutes": 60
+  },
+  {
+    "problem_id": "SP141",
+    "problem_name": "Timing Belt Replacement",
+    "detailed_description": [
+      "Timing belt has reached service interval and shows signs of wear."
+    ],
+    "parts_needed": [
+      "PART_020",
+      "PART_021"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 4.0,
+    "estimated_service_time_minutes": 240
+  },
+  {
+    "problem_id": "SP142",
+    "problem_name": "Air Filter Clog",
+    "detailed_description": [
+      "Engine performance reduced due to heavily clogged air intake filter."
+    ],
+    "parts_needed": [
+      "PART_022"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 0.4,
+    "estimated_service_time_minutes": 24
+  },
+  {
+    "problem_id": "SP143",
+    "problem_name": "Catalytic Converter Overheat",
+    "detailed_description": [
+      "Check engine light indicates catalyst temperature exceeding limits."
+    ],
+    "parts_needed": [
+      "PART_023"
+    ],
+    "labour_category": "Exhaust",
+    "estimated_labour_hours": 1.6,
+    "estimated_service_time_minutes": 96
+  },
+  {
+    "problem_id": "SP144",
+    "problem_name": "Wheel Bearing Failure",
+    "detailed_description": [
+      "Grinding noise from wheel hub, especially during turns."
+    ],
+    "parts_needed": [
+      "PART_024"
+    ],
+    "labour_category": "Suspension",
+    "estimated_labour_hours": 2.1,
+    "estimated_service_time_minutes": 126
+  },
+  {
+    "problem_id": "SP145",
+    "problem_name": "Ignition Coil Fault",
+    "detailed_description": [
+      "Misfires on specific cylinders due to failing ignition coil."
+    ],
+    "parts_needed": [
+      "PART_025"
+    ],
+    "labour_category": "Electrical",
+    "estimated_labour_hours": 0.9,
+    "estimated_service_time_minutes": 54
+  },
+  {
+    "problem_id": "SP146",
+    "problem_name": "Sunroof Motor Stuck",
+    "detailed_description": [
+      "Sunroof fails to open or close, motor makes grinding sound."
+    ],
+    "parts_needed": [
+      "PART_026"
+    ],
+    "labour_category": "Electrical",
+    "estimated_labour_hours": 1.3,
+    "estimated_service_time_minutes": 78
+  },
+  {
+    "problem_id": "SP147",
+    "problem_name": "Fuel Injector Clogging",
+    "detailed_description": [
+      "Reduced fuel efficiency and rough idle due to clogged injectors."
+    ],
+    "parts_needed": [
+      "PART_027",
+      "PART_028"
+    ],
+    "labour_category": "Fuel System",
+    "estimated_labour_hours": 2.4,
+    "estimated_service_time_minutes": 144
+  },
+  {
+    "problem_id": "SP148",
+    "problem_name": "Rear Differential Leak",
+    "detailed_description": [
+      "Oil spots observed under rear of vehicle, indicating differential seal leak."
+    ],
+    "parts_needed": [
+      "PART_029"
+    ],
+    "labour_category": "Drivetrain",
+    "estimated_labour_hours": 1.9,
+    "estimated_service_time_minutes": 114
+  },
+  {
+    "problem_id": "SP149",
+    "problem_name": "Throttle Position Sensor Failure",
+    "detailed_description": [
+      "Erratic engine response and stalling during acceleration."
+    ],
+    "parts_needed": [
+      "PART_030"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 1.1,
+    "estimated_service_time_minutes": 66
+  },
+  {
+    "problem_id": "SP150",
+    "problem_name": "Windshield Wiper Motor Burnout",
+    "detailed_description": [
+      "Wipers do not operate; motor shows no electrical response."
+    ],
+    "parts_needed": [
+      "PART_031"
+    ],
+    "labour_category": "Electrical",
+    "estimated_labour_hours": 0.5,
+    "estimated_service_time_minutes": 30
+  },
+  {
+    "problem_id": "SP151",
+    "problem_name": "Engine misfire on acceleration",
+    "detailed_description": [
+      "Customer reports a noticeable misfire when accelerating above 40 mph.",
+      "Diagnostic scan shows random cylinder misfire codes."
+    ],
+    "parts_needed": [
+      "PART_001",
+      "PART_002"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 2.5,
+    "estimated_service_time_minutes": 150
+  },
+  {
+    "problem_id": "SP152",
+    "problem_name": "Brake pedal feels soft",
+    "detailed_description": [
+      "Brake pedal sinks to the floor with little resistance.",
+      "Brake fluid appears low in the master cylinder."
+    ],
+    "parts_needed": [
+      "PART_003"
+    ],
+    "labour_category": "Brake Service",
+    "estimated_labour_hours": 1.8,
+    "estimated_service_time_minutes": 108
+  },
+  {
+    "problem_id": "SP153",
+    "problem_name": "Battery not holding charge",
+    "detailed_description": [
+      "Vehicle fails to start after being turned off for a few hours.",
+      "Voltage test shows 10.5V at rest."
+    ],
+    "parts_needed": [
+      "PART_004"
+    ],
+    "labour_category": "Electrical System",
+    "estimated_labour_hours": 0.9,
+    "estimated_service_time_minutes": 54
+  },
+  {
+    "problem_id": "SP154",
+    "problem_name": "Transmission slipping during gear changes",
+    "detailed_description": [
+      "Gear shifts feel delayed and the engine revs increase without power delivery.",
+      "Transmission fluid is dark and has a burnt smell."
+    ],
+    "parts_needed": [
+      "PART_005",
+      "PART_006"
+    ],
+    "labour_category": "Transmission Service",
+    "estimated_labour_hours": 3.2,
+    "estimated_service_time_minutes": 192
+  },
+  {
+    "problem_id": "SP155",
+    "problem_name": "Air conditioner blowing warm air",
+    "detailed_description": [
+      "AC system does not cool interior even on the hottest days.",
+      "System pressure test indicates low refrigerant."
+    ],
+    "parts_needed": [
+      "PART_007"
+    ],
+    "labour_category": "HVAC Service",
+    "estimated_labour_hours": 1.4,
+    "estimated_service_time_minutes": 84
+  },
+  {
+    "problem_id": "SP156",
+    "problem_name": "Steering wheel vibration at highway speeds",
+    "detailed_description": [
+      "Driver feels a shaking steering wheel above 65 mph.",
+      "Wheel balance check shows uneven weight distribution."
+    ],
+    "parts_needed": [
+      "PART_008"
+    ],
+    "labour_category": "Suspension & Steering",
+    "estimated_labour_hours": 1.1,
+    "estimated_service_time_minutes": 66
+  },
+  {
+    "problem_id": "SP157",
+    "problem_name": "Engine overheating after 10 minutes of drive",
+    "detailed_description": [
+      "Temperature gauge rises into the red zone quickly.",
+      "Coolant level is adequate but coolant temperature sensor reads high."
+    ],
+    "parts_needed": [
+      "PART_009",
+      "PART_010"
+    ],
+    "labour_category": "Cooling System",
+    "estimated_labour_hours": 2.0,
+    "estimated_service_time_minutes": 120
+  },
+  {
+    "problem_id": "SP158",
+    "problem_name": "Excessive exhaust smoke on start-up",
+    "detailed_description": [
+      "Thick white smoke appears for the first few minutes after starting.",
+      "Possible coolant leak into combustion chamber."
+    ],
+    "parts_needed": [
+      "PART_011"
+    ],
+    "labour_category": "Exhaust System",
+    "estimated_labour_hours": 1.6,
+    "estimated_service_time_minutes": 96
+  },
+  {
+    "problem_id": "SP159",
+    "problem_name": "Fuel pump not delivering sufficient pressure",
+    "detailed_description": [
+      "Engine stalls when idle and during light throttle.",
+      "Fuel pressure test reads below specification."
+    ],
+    "parts_needed": [
+      "PART_012"
+    ],
+    "labour_category": "Fuel System",
+    "estimated_labour_hours": 1.9,
+    "estimated_service_time_minutes": 114
+  },
+  {
+    "problem_id": "SP160",
+    "problem_name": "Paint peeling on rear bumper",
+    "detailed_description": [
+      "Clear coat is flaking and exposing primer on the rear bumper.",
+      "Possible UV damage and improper previous paint job."
+    ],
+    "parts_needed": [
+      "PART_013"
+    ],
+    "labour_category": "Body & Paint",
+    "estimated_labour_hours": 2.3,
+    "estimated_service_time_minutes": 138
+  },
+  {
+    "problem_id": "SP161",
+    "problem_name": "Check Engine Light \u2013 Oxygen sensor failure",
+    "detailed_description": [
+      "OBD-II code P0135 indicates O2 sensor heater circuit malfunction.",
+      "Vehicle shows lean fuel mixture."
+    ],
+    "parts_needed": [
+      "PART_014"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 0.7,
+    "estimated_service_time_minutes": 42
+  },
+  {
+    "problem_id": "SP162",
+    "problem_name": "ABS warning light illuminated",
+    "detailed_description": [
+      "ABS system disables; wheel lock-up observed during hard braking.",
+      "Diagnostic reveals faulty wheel speed sensor."
+    ],
+    "parts_needed": [
+      "PART_015"
+    ],
+    "labour_category": "Brake Service",
+    "estimated_labour_hours": 1.2,
+    "estimated_service_time_minutes": 72
+  },
+  {
+    "problem_id": "SP163",
+    "problem_name": "Power windows move slowly",
+    "detailed_description": [
+      "Window motors take longer than usual to raise/lower.",
+      "Electrical test shows voltage drop at the switch."
+    ],
+    "parts_needed": [
+      "PART_016"
+    ],
+    "labour_category": "Electrical System",
+    "estimated_labour_hours": 0.8,
+    "estimated_service_time_minutes": 48
+  },
+  {
+    "problem_id": "SP164",
+    "problem_name": "Clutch slipping under load",
+    "detailed_description": [
+      "Engine revs increase without corresponding acceleration in gear 2-4.",
+      "Clutch pedal feels soft and has excess free play."
+    ],
+    "parts_needed": [
+      "PART_017",
+      "PART_018"
+    ],
+    "labour_category": "Transmission Service",
+    "estimated_labour_hours": 3.5,
+    "estimated_service_time_minutes": 210
+  },
+  {
+    "problem_id": "SP165",
+    "problem_name": "Cabin heater blowing cold air",
+    "detailed_description": [
+      "Heater core does not warm interior despite engine reaching normal temperature.",
+      "Coolant flow through heater core appears restricted."
+    ],
+    "parts_needed": [
+      "PART_019"
+    ],
+    "labour_category": "HVAC Service",
+    "estimated_labour_hours": 1.5,
+    "estimated_service_time_minutes": 90
+  },
+  {
+    "problem_id": "SP166",
+    "problem_name": "Front suspension making clunking noise",
+    "detailed_description": [
+      "Noise heard when going over bumps or during steering maneuvers.",
+      "Strut mount appears worn."
+    ],
+    "parts_needed": [
+      "PART_020"
+    ],
+    "labour_category": "Suspension & Steering",
+    "estimated_labour_hours": 2.1,
+    "estimated_service_time_minutes": 126
+  },
+  {
+    "problem_id": "SP167",
+    "problem_name": "Radiator leak detected",
+    "detailed_description": [
+      "Coolant puddles under the vehicle after a short drive.",
+      "Pressure test confirms leak at the radiator core."
+    ],
+    "parts_needed": [
+      "PART_021"
+    ],
+    "labour_category": "Cooling System",
+    "estimated_labour_hours": 2.4,
+    "estimated_service_time_minutes": 144
+  },
+  {
+    "problem_id": "SP168",
+    "problem_name": "Muffler rusted and rattling",
+    "detailed_description": [
+      "Loud rattling noise from rear exhaust at low speeds.",
+      "Visual inspection shows rust-through on muffler shell."
+    ],
+    "parts_needed": [
+      "PART_022"
+    ],
+    "labour_category": "Exhaust System",
+    "estimated_labour_hours": 1.3,
+    "estimated_service_time_minutes": 78
+  },
+  {
+    "problem_id": "SP169",
+    "problem_name": "Fuel injector leaking",
+    "detailed_description": [
+      "Strong gasoline odor near the engine bay after parking.",
+      "Injector leak test shows drip from injector #3."
+    ],
+    "parts_needed": [
+      "PART_023"
+    ],
+    "labour_category": "Fuel System",
+    "estimated_labour_hours": 1.7,
+    "estimated_service_time_minutes": 102
+  },
+  {
+    "problem_id": "SP170",
+    "problem_name": "Rear door paint chips and rust",
+    "detailed_description": [
+      "Small chips on rear door paint have started to rust.",
+      "Surface preparation needed before repaint."
+    ],
+    "parts_needed": [
+      "PART_024"
+    ],
+    "labour_category": "Body & Paint",
+    "estimated_labour_hours": 2.0,
+    "estimated_service_time_minutes": 120
+  },
+  {
+    "problem_id": "SP171",
+    "problem_name": "Camshaft position sensor failure",
+    "detailed_description": [
+      "Engine stalls intermittently and fails to start on first attempt.",
+      "OBD-II code P0340 indicates camshaft sensor malfunction."
+    ],
+    "parts_needed": [
+      "PART_025"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 1.0,
+    "estimated_service_time_minutes": 60
+  },
+  {
+    "problem_id": "SP172",
+    "problem_name": "Brake rotor warping",
+    "detailed_description": [
+      "Brake pedal pulsates during hard stops.",
+      "Rotor runout measurement exceeds tolerance."
+    ],
+    "parts_needed": [
+      "PART_026"
+    ],
+    "labour_category": "Brake Service",
+    "estimated_labour_hours": 1.9,
+    "estimated_service_time_minutes": 114
+  },
+  {
+    "problem_id": "SP173",
+    "problem_name": "Headlight dimming at night",
+    "detailed_description": [
+      "Both low-beam headlights appear dim after a few minutes of use.",
+      "Voltage drop measured at the headlight connector."
+    ],
+    "parts_needed": [
+      "PART_027"
+    ],
+    "labour_category": "Electrical System",
+    "estimated_labour_hours": 0.6,
+    "estimated_service_time_minutes": 36
+  },
+  {
+    "problem_id": "SP174",
+    "problem_name": "Transmission fluid contaminated with metal shavings",
+    "detailed_description": [
+      "Fluid appears gritty and metallic.",
+      "Possible internal wear in gearbox components."
+    ],
+    "parts_needed": [
+      "PART_028"
+    ],
+    "labour_category": "Transmission Service",
+    "estimated_labour_hours": 3.0,
+    "estimated_service_time_minutes": 180
+  },
+  {
+    "problem_id": "SP175",
+    "problem_name": "AC compressor clutch not engaging",
+    "detailed_description": [
+      "Compressor does not spin when AC is turned on.",
+      "Electrical test shows no voltage at clutch coil."
+    ],
+    "parts_needed": [
+      "PART_029"
+    ],
+    "labour_category": "HVAC Service",
+    "estimated_labour_hours": 1.2,
+    "estimated_service_time_minutes": 72
+  },
+  {
+    "problem_id": "SP176",
+    "problem_name": "Engine misfire on acceleration",
+    "detailed_description": [
+      "The engine experiences a misfire when the accelerator is pressed beyond 3000 RPM, causing rough idle and loss of power."
+    ],
+    "parts_needed": [
+      "PART_001",
+      "PART_002"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 2.5,
+    "estimated_service_time_minutes": 150
+  },
+  {
+    "problem_id": "SP177",
+    "problem_name": "Brake pedal feels soft",
+    "detailed_description": [
+      "Brake pedal sinks to the floor with minimal resistance, indicating possible air in the hydraulic line or worn master cylinder."
+    ],
+    "parts_needed": [
+      "PART_003"
+    ],
+    "labour_category": "Brake Service",
+    "estimated_labour_hours": 1.8,
+    "estimated_service_time_minutes": 108
+  },
+  {
+    "problem_id": "SP178",
+    "problem_name": "Battery not holding charge",
+    "detailed_description": [
+      "The vehicle's battery loses charge within a few days, leading to starting issues."
+    ],
+    "parts_needed": [
+      "PART_004"
+    ],
+    "labour_category": "Electrical Diagnostics",
+    "estimated_labour_hours": 1.2,
+    "estimated_service_time_minutes": 72
+  },
+  {
+    "problem_id": "SP179",
+    "problem_name": "Transmission slipping during gear changes",
+    "detailed_description": [
+      "Gear shifts are delayed and the transmission slips, causing a noticeable loss of acceleration."
+    ],
+    "parts_needed": [
+      "PART_005",
+      "PART_006"
+    ],
+    "labour_category": "Transmission Service",
+    "estimated_labour_hours": 3.0,
+    "estimated_service_time_minutes": 180
+  },
+  {
+    "problem_id": "SP180",
+    "problem_name": "Steering wheel vibration at high speeds",
+    "detailed_description": [
+      "The steering wheel vibrates noticeably above 70 mph, suggesting worn tie\u2011rod ends or unbalanced wheels."
+    ],
+    "parts_needed": [
+      "PART_007"
+    ],
+    "labour_category": "Suspension & Steering",
+    "estimated_labour_hours": 2.0,
+    "estimated_service_time_minutes": 120
+  },
+  {
+    "problem_id": "SP181",
+    "problem_name": "Overheating coolant system",
+    "detailed_description": [
+      "Engine temperature rises rapidly after a short drive, indicating a possible radiator leak or thermostat failure."
+    ],
+    "parts_needed": [
+      "PART_008",
+      "PART_009"
+    ],
+    "labour_category": "Cooling System",
+    "estimated_labour_hours": 2.3,
+    "estimated_service_time_minutes": 138
+  },
+  {
+    "problem_id": "SP182",
+    "problem_name": "Exhaust rattling noise",
+    "detailed_description": [
+      "A metallic rattling sound is heard from the rear of the vehicle, especially when accelerating."
+    ],
+    "parts_needed": [
+      "PART_010"
+    ],
+    "labour_category": "Exhaust System",
+    "estimated_labour_hours": 1.5,
+    "estimated_service_time_minutes": 90
+  },
+  {
+    "problem_id": "SP183",
+    "problem_name": "Air conditioner blowing warm air",
+    "detailed_description": [
+      "The A/C system fails to produce cold air, even after the compressor engages."
+    ],
+    "parts_needed": [
+      "PART_011"
+    ],
+    "labour_category": "Air Conditioning",
+    "estimated_labour_hours": 2.1,
+    "estimated_service_time_minutes": 126
+  },
+  {
+    "problem_id": "SP184",
+    "problem_name": "Oil pressure low warning",
+    "detailed_description": [
+      "Dashboard oil pressure warning illuminates shortly after start-up, suggesting a possible oil pump issue."
+    ],
+    "parts_needed": [
+      "PART_012"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 2.0,
+    "estimated_service_time_minutes": 120
+  },
+  {
+    "problem_id": "SP185",
+    "problem_name": "Brake squeal when stopping",
+    "detailed_description": [
+      "High\u2011pitched squealing occurs during light braking, indicating worn brake pads or glazed rotors."
+    ],
+    "parts_needed": [
+      "PART_013"
+    ],
+    "labour_category": "Brake Service",
+    "estimated_labour_hours": 1.0,
+    "estimated_service_time_minutes": 60
+  },
+  {
+    "problem_id": "SP186",
+    "problem_name": "Check Engine light \u2013 O2 sensor fault",
+    "detailed_description": [
+      "Diagnostic trouble code P0135 indicates a heated oxygen sensor heater circuit malfunction."
+    ],
+    "parts_needed": [
+      "PART_014"
+    ],
+    "labour_category": "Electrical Diagnostics",
+    "estimated_labour_hours": 1.4,
+    "estimated_service_time_minutes": 84
+  },
+  {
+    "problem_id": "SP187",
+    "problem_name": "Clutch slipping under load",
+    "detailed_description": [
+      "When accelerating uphill, the clutch slips and engine RPM rises without a corresponding increase in speed."
+    ],
+    "parts_needed": [
+      "PART_015"
+    ],
+    "labour_category": "Transmission Service",
+    "estimated_labour_hours": 3.2,
+    "estimated_service_time_minutes": 192
+  },
+  {
+    "problem_id": "SP188",
+    "problem_name": "Uneven tire wear",
+    "detailed_description": [
+      "Front tires show cupping and feathering, indicating possible alignment or suspension issues."
+    ],
+    "parts_needed": [
+      "PART_016"
+    ],
+    "labour_category": "Suspension & Steering",
+    "estimated_labour_hours": 1.6,
+    "estimated_service_time_minutes": 96
+  },
+  {
+    "problem_id": "SP189",
+    "problem_name": "Radiator fan not engaging",
+    "detailed_description": [
+      "Engine temperature climbs past normal operating range because the cooling fan fails to turn on."
+    ],
+    "parts_needed": [
+      "PART_017"
+    ],
+    "labour_category": "Cooling System",
+    "estimated_labour_hours": 1.9,
+    "estimated_service_time_minutes": 114
+  },
+  {
+    "problem_id": "SP190",
+    "problem_name": "Muffler corrosion causing exhaust leak",
+    "detailed_description": [
+      "A loud hissing noise is heard from the rear, especially during acceleration, due to rusted muffler."
+    ],
+    "parts_needed": [
+      "PART_018"
+    ],
+    "labour_category": "Exhaust System",
+    "estimated_labour_hours": 1.3,
+    "estimated_service_time_minutes": 78
+  },
+  {
+    "problem_id": "SP191",
+    "problem_name": "Low refrigerant charge",
+    "detailed_description": [
+      "A/C system blows weakly cold air; pressure test shows low refrigerant level."
+    ],
+    "parts_needed": [
+      "PART_019"
+    ],
+    "labour_category": "Air Conditioning",
+    "estimated_labour_hours": 2.4,
+    "estimated_service_time_minutes": 144
+  },
+  {
+    "problem_id": "SP192",
+    "problem_name": "Engine oil leak at valve cover gasket",
+    "detailed_description": [
+      "Oil drips onto the engine bay from the valve cover area after each drive."
+    ],
+    "parts_needed": [
+      "PART_020"
+    ],
+    "labour_category": "Engine Repair",
+    "estimated_labour_hours": 1.7,
+    "estimated_service_time_minutes": 102
+  },
+  {
+    "problem_id": "SP193",
+    "problem_name": "Brake rotor warping",
+    "detailed_description": [
+      "Pulsation felt through the brake pedal during stopping, indicating warped rotors."
+    ],
+    "parts_needed": [
+      "PART_021"
+    ],
+    "labour_category": "Brake Service",
+    "estimated_labour_hours": 2.2,
+    "estimated_service_time_minutes": 132
+  },
+  {
+    "problem_id": "SP194",
+    "problem_name": "Battery terminal corrosion",
+    "detailed_description": [
+      "Corroded terminals cause intermittent starting problems and dimming lights."
+    ],
+    "parts_needed": [
+      "PART_022"
+    ],
+    "labour_category": "Electrical Diagnostics",
+    "estimated_labour_hours": 0.9,
+    "estimated_service_time_minutes": 54
+  },
+  {
+    "problem_id": "SP195",
+    "problem_name": "Transmission fluid low",
+    "detailed_description": [
+      "Fluid dipstick shows low level, leading to harsh shifting and noise."
+    ],
+    "parts_needed": [
+      "PART_023"
+    ],
+    "labour_category": "Transmission Service",
+    "estimated_labour_hours": 1.5,
+    "estimated_service_time_minutes": 90
+  },
+  {
+    "problem_id": "SP196",
+    "problem_name": "Ball joint wear causing clunk",
+    "detailed_description": [
+      "A clunking sound is heard when going over bumps, indicating worn ball joints."
+    ],
+    "parts_needed": [
+      "PART_024"
+    ],
+    "labour_category": "Suspension & Steering",
+    "estimated_labour_hours": 2.1,
+    "estimated_service_time_minutes": 126
+  },
+  {
+    "problem_id": "SP197",
+    "problem_name": "Coolant temperature sensor failure",
+    "detailed_description": [
+      "Engine temperature gauge reads erratically due to a faulty coolant temperature sensor."
+    ],
+    "parts_needed": [
+      "PART_025"
+    ],
+    "labour_category": "Cooling System",
+    "estimated_labour_hours": 1.2,
+    "estimated_service_time_minutes": 72
+  },
+  {
+    "problem_id": "SP198",
+    "problem_name": "Catalytic converter blockage",
+    "detailed_description": [
+      "Check Engine light flashes with code P0420, indicating reduced catalyst efficiency."
+    ],
+    "parts_needed": [
+      "PART_026"
+    ],
+    "labour_category": "Exhaust System",
+    "estimated_labour_hours": 2.8,
+    "estimated_service_time_minutes": 168
+  },
+  {
+    "problem_id": "SP199",
+    "problem_name": "Compressor clutch not engaging",
+    "detailed_description": [
+      "A/C compressor clutch does not spin when the AC is turned on, resulting in warm air."
+    ],
+    "parts_needed": [
+      "PART_027"
+    ],
+    "labour_category": "Air Conditioning",
+    "estimated_labour_hours": 2.0,
+    "estimated_service_time_minutes": 120
+  },
+  {
+    "problem_id": "SP200",
+    "problem_name": "Oil filter clogged",
+    "detailed_description": [
+      "Oil pressure drops after a short drive due to a clogged oil filter restricting flow."
+    ],
+    "parts_needed": [
+      "PART_028"
+    ],
+    "labour_category": "General Maintenance",
+    "estimated_labour_hours": 0.8,
+    "estimated_service_time_minutes": 48
+  }
+]
