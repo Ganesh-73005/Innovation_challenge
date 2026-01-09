@@ -1,0 +1,128 @@
+.dealer-page {
+  display: flex;
+  min-height: 100vh;
+}
+
+.dealer-sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 280px;
+  height: 100vh;
+  background: var(--bg-card);
+  border-right: 1px solid var(--border-color);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dealer-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--border-color);
+  text-align: center;
+}
+
+.dealer-header svg {
+  color: var(--accent-primary);
+}
+
+.dealer-header h2 {
+  font-size: 20px;
+  color: var(--text-primary);
+}
+
+.dealer-main {
+  flex: 1;
+  margin-left: 280px;
+  padding: 32px;
+}
+
+.dealer-dashboard-header {
+  margin-bottom: 32px;
+}
+
+.dealer-dashboard-header h1 {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.stat-card {
+  text-align: center;
+  padding: 28px;
+}
+
+.stat-value {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--accent-primary);
+  margin-bottom: 8px;
+}
+
+.stat-label {
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.services-list h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.dealer-service-card {
+  cursor: pointer;
+  margin-bottom: 16px;
+  padding: 24px;
+}
+
+.dealer-service-card:hover {
+  transform: translateX(4px);
+}
+
+.service-main-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.service-main-info h3 {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.service-id {
+  color: var(--text-muted);
+  font-size: 13px;
+  margin: 0;
+}
+
+.service-details {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+.detail svg {
+  color: var(--accent-primary);
+}
