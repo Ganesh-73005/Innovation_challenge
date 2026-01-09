@@ -1,0 +1,2426 @@
+[
+  {
+    "part_id": "PART_001",
+    "part_name": "Oil Filter",
+    "vehicle_models": [
+      "Model A",
+      "Model B"
+    ],
+    "cost": 15,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_002",
+    "part_name": "Air Filter",
+    "vehicle_models": [
+      "Model C"
+    ],
+    "cost": 22,
+    "in_stock": false,
+    "eta_if_not_available_days": 5,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_003",
+    "part_name": "Brake Pad Set",
+    "vehicle_models": [
+      "Model D",
+      "Model E"
+    ],
+    "cost": 85,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_004",
+    "part_name": "Spark Plug",
+    "vehicle_models": [
+      "Model F"
+    ],
+    "cost": 9,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_005",
+    "part_name": "Radiator Hose",
+    "vehicle_models": [
+      "Model G",
+      "Model H"
+    ],
+    "cost": 30,
+    "in_stock": false,
+    "eta_if_not_available_days": 3,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_006",
+    "part_name": "Fuel Pump",
+    "vehicle_models": [
+      "Model I"
+    ],
+    "cost": 120,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_007",
+    "part_name": "Clutch Kit",
+    "vehicle_models": [
+      "Model J"
+    ],
+    "cost": 250,
+    "in_stock": false,
+    "eta_if_not_available_days": 7,
+    "warranty_applicable": false,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_008",
+    "part_name": "AC Compressor",
+    "vehicle_models": [
+      "Model K"
+    ],
+    "cost": 340,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_009",
+    "part_name": "Brake Rotor",
+    "vehicle_models": [
+      "Model L"
+    ],
+    "cost": 70,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_010",
+    "part_name": "Thermostat",
+    "vehicle_models": [
+      "Model M",
+      "Model N"
+    ],
+    "cost": 45,
+    "in_stock": false,
+    "eta_if_not_available_days": 4,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_011",
+    "part_name": "Transmission Fluid",
+    "vehicle_models": [
+      "Model O"
+    ],
+    "cost": 55,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_012",
+    "part_name": "Oxygen Sensor",
+    "vehicle_models": [
+      "Model P"
+    ],
+    "cost": 65,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_013",
+    "part_name": "Catalytic Converter",
+    "vehicle_models": [
+      "Model Q"
+    ],
+    "cost": 480,
+    "in_stock": false,
+    "eta_if_not_available_days": 10,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_014",
+    "part_name": "Drive Belt",
+    "vehicle_models": [
+      "Model R"
+    ],
+    "cost": 28,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_015",
+    "part_name": "Shock Absorber",
+    "vehicle_models": [
+      "Model S"
+    ],
+    "cost": 140,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_016",
+    "part_name": "Steering Rack",
+    "vehicle_models": [
+      "Model T"
+    ],
+    "cost": 320,
+    "in_stock": false,
+    "eta_if_not_available_days": 6,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_017",
+    "part_name": "Battery",
+    "vehicle_models": [
+      "Model U",
+      "Model V"
+    ],
+    "cost": 110,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_018",
+    "part_name": "Fuel Injector",
+    "vehicle_models": [
+      "Model W"
+    ],
+    "cost": 95,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_019",
+    "part_name": "Exhaust Muffler",
+    "vehicle_models": [
+      "Model X"
+    ],
+    "cost": 180,
+    "in_stock": false,
+    "eta_if_not_available_days": 8,
+    "warranty_applicable": false,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_020",
+    "part_name": "Coolant Reservoir",
+    "vehicle_models": [
+      "Model Y"
+    ],
+    "cost": 40,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_021",
+    "part_name": "Brake Caliper",
+    "vehicle_models": [
+      "Model Z"
+    ],
+    "cost": 115,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_022",
+    "part_name": "HVAC Blower Motor",
+    "vehicle_models": [
+      "Model AA"
+    ],
+    "cost": 70,
+    "in_stock": false,
+    "eta_if_not_available_days": 5,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_023",
+    "part_name": "Transmission Mount",
+    "vehicle_models": [
+      "Model BB"
+    ],
+    "cost": 55,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_024",
+    "part_name": "Power Steering Pump",
+    "vehicle_models": [
+      "Model CC"
+    ],
+    "cost": 130,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_025",
+    "part_name": "Engine Mount",
+    "vehicle_models": [
+      "Model DD"
+    ],
+    "cost": 60,
+    "in_stock": false,
+    "eta_if_not_available_days": 4,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_001",
+    "part_name": "Air Filter",
+    "vehicle_models": [
+      "Model A",
+      "Model B"
+    ],
+    "cost": 25,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_002",
+    "part_name": "Oil Filter",
+    "vehicle_models": [
+      "Model C"
+    ],
+    "cost": 15,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_003",
+    "part_name": "Brake Pad Set",
+    "vehicle_models": [
+      "Model D",
+      "Model E"
+    ],
+    "cost": 120,
+    "in_stock": false,
+    "eta_if_not_available_days": 5,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_004",
+    "part_name": "Spark Plug",
+    "vehicle_models": [
+      "Model F"
+    ],
+    "cost": 8,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_005",
+    "part_name": "Radiator",
+    "vehicle_models": [
+      "Model G",
+      "Model H"
+    ],
+    "cost": 250,
+    "in_stock": false,
+    "eta_if_not_available_days": 7,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_006",
+    "part_name": "Fuel Pump",
+    "vehicle_models": [
+      "Model I"
+    ],
+    "cost": 180,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_007",
+    "part_name": "Clutch Kit",
+    "vehicle_models": [
+      "Model J"
+    ],
+    "cost": 400,
+    "in_stock": false,
+    "eta_if_not_available_days": 10,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_008",
+    "part_name": "Alternator",
+    "vehicle_models": [
+      "Model K",
+      "Model L"
+    ],
+    "cost": 320,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_009",
+    "part_name": "Starter Motor",
+    "vehicle_models": [
+      "Model M"
+    ],
+    "cost": 210,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_010",
+    "part_name": "Brake Rotor",
+    "vehicle_models": [
+      "Model N"
+    ],
+    "cost": 85,
+    "in_stock": false,
+    "eta_if_not_available_days": 3,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_011",
+    "part_name": "Catalytic Converter",
+    "vehicle_models": [
+      "Model O"
+    ],
+    "cost": 600,
+    "in_stock": false,
+    "eta_if_not_available_days": 14,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_012",
+    "part_name": "Oxygen Sensor",
+    "vehicle_models": [
+      "Model P"
+    ],
+    "cost": 55,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_013",
+    "part_name": "Thermostat",
+    "vehicle_models": [
+      "Model Q"
+    ],
+    "cost": 45,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_014",
+    "part_name": "Transmission Fluid",
+    "vehicle_models": [
+      "Model R"
+    ],
+    "cost": 30,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_015",
+    "part_name": "Drive Belt",
+    "vehicle_models": [
+      "Model S"
+    ],
+    "cost": 22,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_016",
+    "part_name": "Power Steering Pump",
+    "vehicle_models": [
+      "Model T"
+    ],
+    "cost": 140,
+    "in_stock": false,
+    "eta_if_not_available_days": 6,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_017",
+    "part_name": "Shock Absorber",
+    "vehicle_models": [
+      "Model U"
+    ],
+    "cost": 95,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_018",
+    "part_name": "Air Conditioning Compressor",
+    "vehicle_models": [
+      "Model V"
+    ],
+    "cost": 420,
+    "in_stock": false,
+    "eta_if_not_available_days": 12,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_019",
+    "part_name": "Fuel Injector",
+    "vehicle_models": [
+      "Model W"
+    ],
+    "cost": 130,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_020",
+    "part_name": "Exhaust Muffler",
+    "vehicle_models": [
+      "Model X"
+    ],
+    "cost": 150,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_021",
+    "part_name": "Timing Belt",
+    "vehicle_models": [
+      "Model Y"
+    ],
+    "cost": 110,
+    "in_stock": false,
+    "eta_if_not_available_days": 8,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_022",
+    "part_name": "Brake Caliper",
+    "vehicle_models": [
+      "Model Z"
+    ],
+    "cost": 75,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_023",
+    "part_name": "ECU",
+    "vehicle_models": [
+      "Model AA"
+    ],
+    "cost": 800,
+    "in_stock": false,
+    "eta_if_not_available_days": 20,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_024",
+    "part_name": "Cabin Air Filter",
+    "vehicle_models": [
+      "Model BB"
+    ],
+    "cost": 18,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_025",
+    "part_name": "Rear View Mirror",
+    "vehicle_models": [
+      "Model CC"
+    ],
+    "cost": 55,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_001",
+    "part_name": "Fuel Pump",
+    "vehicle_models": [
+      "Model X"
+    ],
+    "cost": 120,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_002",
+    "part_name": "Brake Rotor",
+    "vehicle_models": [
+      "Model Y"
+    ],
+    "cost": 85,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_003",
+    "part_name": "Air Filter",
+    "vehicle_models": [
+      "Model Z"
+    ],
+    "cost": 30,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_004",
+    "part_name": "Radiator",
+    "vehicle_models": [
+      "Model A"
+    ],
+    "cost": 210,
+    "in_stock": false,
+    "eta_if_not_available_days": 5,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_005",
+    "part_name": "Clutch Kit",
+    "vehicle_models": [
+      "Model B"
+    ],
+    "cost": 450,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_006",
+    "part_name": "Spark Plug",
+    "vehicle_models": [
+      "Model C"
+    ],
+    "cost": 12,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_007",
+    "part_name": "Transmission Fluid",
+    "vehicle_models": [
+      "Model D"
+    ],
+    "cost": 55,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_008",
+    "part_name": "Brake Pad Set",
+    "vehicle_models": [
+      "Model E"
+    ],
+    "cost": 70,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_009",
+    "part_name": "Thermostat",
+    "vehicle_models": [
+      "Model F"
+    ],
+    "cost": 45,
+    "in_stock": false,
+    "eta_if_not_available_days": 3,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_010",
+    "part_name": "Alternator",
+    "vehicle_models": [
+      "Model G"
+    ],
+    "cost": 180,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_011",
+    "part_name": "Oxygen Sensor",
+    "vehicle_models": [
+      "Model H"
+    ],
+    "cost": 95,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_012",
+    "part_name": "Timing Belt",
+    "vehicle_models": [
+      "Model I"
+    ],
+    "cost": 130,
+    "in_stock": false,
+    "eta_if_not_available_days": 7,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_013",
+    "part_name": "Coolant Hose",
+    "vehicle_models": [
+      "Model J"
+    ],
+    "cost": 25,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_014",
+    "part_name": "Fuel Injector",
+    "vehicle_models": [
+      "Model K"
+    ],
+    "cost": 150,
+    "in_stock": false,
+    "eta_if_not_available_days": 4,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_015",
+    "part_name": "Cabin Air Filter",
+    "vehicle_models": [
+      "Model L"
+    ],
+    "cost": 22,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_016",
+    "part_name": "Brake Caliper",
+    "vehicle_models": [
+      "Model M"
+    ],
+    "cost": 110,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_017",
+    "part_name": "Engine Mount",
+    "vehicle_models": [
+      "Model N"
+    ],
+    "cost": 80,
+    "in_stock": false,
+    "eta_if_not_available_days": 6,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_018",
+    "part_name": "Power Steering Pump",
+    "vehicle_models": [
+      "Model O"
+    ],
+    "cost": 140,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_019",
+    "part_name": "Exhaust Muffler",
+    "vehicle_models": [
+      "Model P"
+    ],
+    "cost": 200,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_020",
+    "part_name": "Catalytic Converter",
+    "vehicle_models": [
+      "Model Q"
+    ],
+    "cost": 350,
+    "in_stock": false,
+    "eta_if_not_available_days": 8,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_021",
+    "part_name": "Transmission Filter",
+    "vehicle_models": [
+      "Model R"
+    ],
+    "cost": 65,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_022",
+    "part_name": "Steering Rack",
+    "vehicle_models": [
+      "Model S"
+    ],
+    "cost": 275,
+    "in_stock": false,
+    "eta_if_not_available_days": 5,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_023",
+    "part_name": "Suspension Shock",
+    "vehicle_models": [
+      "Model T"
+    ],
+    "cost": 190,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_024",
+    "part_name": "HVAC Compressor",
+    "vehicle_models": [
+      "Model U"
+    ],
+    "cost": 230,
+    "in_stock": false,
+    "eta_if_not_available_days": 9,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_025",
+    "part_name": "Battery",
+    "vehicle_models": [
+      "Model V"
+    ],
+    "cost": 115,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_001",
+    "part_name": "Oil Filter",
+    "vehicle_models": [
+      "Model A",
+      "Model B"
+    ],
+    "cost": 15,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_002",
+    "part_name": "Air Filter",
+    "vehicle_models": [
+      "Model C",
+      "Model D"
+    ],
+    "cost": 20,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_003",
+    "part_name": "Brake Pad Set",
+    "vehicle_models": [
+      "Model E"
+    ],
+    "cost": 80,
+    "in_stock": false,
+    "eta_if_not_available_days": 5,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_004",
+    "part_name": "Spark Plug",
+    "vehicle_models": [
+      "Model F",
+      "Model G"
+    ],
+    "cost": 10,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_005",
+    "part_name": "Radiator",
+    "vehicle_models": [
+      "Model H"
+    ],
+    "cost": 250,
+    "in_stock": false,
+    "eta_if_not_available_days": 7,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_006",
+    "part_name": "Battery",
+    "vehicle_models": [
+      "Model I",
+      "Model J"
+    ],
+    "cost": 120,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_007",
+    "part_name": "Fuel Pump",
+    "vehicle_models": [
+      "Model K"
+    ],
+    "cost": 180,
+    "in_stock": false,
+    "eta_if_not_available_days": 4,
+    "warranty_applicable": false,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_008",
+    "part_name": "Alternator",
+    "vehicle_models": [
+      "Model L",
+      "Model M"
+    ],
+    "cost": 210,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_009",
+    "part_name": "Clutch Kit",
+    "vehicle_models": [
+      "Model N"
+    ],
+    "cost": 350,
+    "in_stock": false,
+    "eta_if_not_available_days": 6,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_010",
+    "part_name": "Catalytic Converter",
+    "vehicle_models": [
+      "Model O"
+    ],
+    "cost": 400,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_011",
+    "part_name": "Timing Belt",
+    "vehicle_models": [
+      "Model P",
+      "Model Q"
+    ],
+    "cost": 95,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_012",
+    "part_name": "Water Pump",
+    "vehicle_models": [
+      "Model R"
+    ],
+    "cost": 85,
+    "in_stock": false,
+    "eta_if_not_available_days": 3,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_013",
+    "part_name": "Brake Rotor",
+    "vehicle_models": [
+      "Model S"
+    ],
+    "cost": 110,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_014",
+    "part_name": "Oxygen Sensor",
+    "vehicle_models": [
+      "Model T",
+      "Model U"
+    ],
+    "cost": 65,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_015",
+    "part_name": "Transmission Fluid",
+    "vehicle_models": [
+      "Model V"
+    ],
+    "cost": 30,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_016",
+    "part_name": "Shock Absorber",
+    "vehicle_models": [
+      "Model W"
+    ],
+    "cost": 150,
+    "in_stock": false,
+    "eta_if_not_available_days": 5,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_017",
+    "part_name": "Steering Rack",
+    "vehicle_models": [
+      "Model X"
+    ],
+    "cost": 275,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_018",
+    "part_name": "HVAC Compressor",
+    "vehicle_models": [
+      "Model Y"
+    ],
+    "cost": 320,
+    "in_stock": false,
+    "eta_if_not_available_days": 8,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_019",
+    "part_name": "Drive Belt",
+    "vehicle_models": [
+      "Model Z"
+    ],
+    "cost": 45,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_020",
+    "part_name": "Fuel Injector",
+    "vehicle_models": [
+      "Model AA"
+    ],
+    "cost": 130,
+    "in_stock": false,
+    "eta_if_not_available_days": 4,
+    "warranty_applicable": false,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_021",
+    "part_name": "Exhaust Muffler",
+    "vehicle_models": [
+      "Model BB"
+    ],
+    "cost": 140,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_022",
+    "part_name": "Power Steering Pump",
+    "vehicle_models": [
+      "Model CC"
+    ],
+    "cost": 190,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_023",
+    "part_name": "ECU",
+    "vehicle_models": [
+      "Model DD"
+    ],
+    "cost": 500,
+    "in_stock": false,
+    "eta_if_not_available_days": 10,
+    "warranty_applicable": false,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_024",
+    "part_name": "Radiator Hose",
+    "vehicle_models": [
+      "Model EE"
+    ],
+    "cost": 25,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_025",
+    "part_name": "Turbocharger",
+    "vehicle_models": [
+      "Model FF"
+    ],
+    "cost": 750,
+    "in_stock": false,
+    "eta_if_not_available_days": 12,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_001",
+    "part_name": "Air Filter",
+    "vehicle_models": [
+      "Model A",
+      "Model B"
+    ],
+    "cost": 120,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_002",
+    "part_name": "Brake Pad Set",
+    "vehicle_models": [
+      "Model C"
+    ],
+    "cost": 250,
+    "in_stock": false,
+    "eta_if_not_available_days": 5,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_003",
+    "part_name": "Cooling Radiator",
+    "vehicle_models": [
+      "Model D",
+      "Model E"
+    ],
+    "cost": 480,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_004",
+    "part_name": "Fuel Pump",
+    "vehicle_models": [
+      "Model F"
+    ],
+    "cost": 340,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_005",
+    "part_name": "Spark Plug Set",
+    "vehicle_models": [
+      "Model G",
+      "Model H"
+    ],
+    "cost": 80,
+    "in_stock": false,
+    "eta_if_not_available_days": 3,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_006",
+    "part_name": "Transmission Filter",
+    "vehicle_models": [
+      "Model I"
+    ],
+    "cost": 210,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_007",
+    "part_name": "Brake Rotor",
+    "vehicle_models": [
+      "Model J"
+    ],
+    "cost": 190,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_008",
+    "part_name": "HVAC Compressor",
+    "vehicle_models": [
+      "Model K"
+    ],
+    "cost": 560,
+    "in_stock": false,
+    "eta_if_not_available_days": 7,
+    "warranty_applicable": false,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_009",
+    "part_name": "Engine Oil Filter",
+    "vehicle_models": [
+      "Model L"
+    ],
+    "cost": 45,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_010",
+    "part_name": "Exhaust Muffler",
+    "vehicle_models": [
+      "Model M"
+    ],
+    "cost": 330,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_011",
+    "part_name": "Steering Rack",
+    "vehicle_models": [
+      "Model N"
+    ],
+    "cost": 720,
+    "in_stock": false,
+    "eta_if_not_available_days": 10,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_012",
+    "part_name": "Suspension Shock",
+    "vehicle_models": [
+      "Model O",
+      "Model P"
+    ],
+    "cost": 410,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_013",
+    "part_name": "Electrical Relay",
+    "vehicle_models": [
+      "Model Q"
+    ],
+    "cost": 35,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_014",
+    "part_name": "Fuel Injector",
+    "vehicle_models": [
+      "Model R"
+    ],
+    "cost": 275,
+    "in_stock": false,
+    "eta_if_not_available_days": 6,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_015",
+    "part_name": "Air Conditioning Condenser",
+    "vehicle_models": [
+      "Model S"
+    ],
+    "cost": 620,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_016",
+    "part_name": "Engine Timing Belt",
+    "vehicle_models": [
+      "Model T"
+    ],
+    "cost": 495,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_017",
+    "part_name": "Transmission Fluid",
+    "vehicle_models": [
+      "Model U"
+    ],
+    "cost": 85,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_018",
+    "part_name": "Brake Caliper",
+    "vehicle_models": [
+      "Model V"
+    ],
+    "cost": 260,
+    "in_stock": false,
+    "eta_if_not_available_days": 4,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_019",
+    "part_name": "Cooling Fan",
+    "vehicle_models": [
+      "Model W"
+    ],
+    "cost": 150,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_020",
+    "part_name": "Exhaust Catalytic Converter",
+    "vehicle_models": [
+      "Model X"
+    ],
+    "cost": 840,
+    "in_stock": false,
+    "eta_if_not_available_days": 12,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_021",
+    "part_name": "Steering Column",
+    "vehicle_models": [
+      "Model Y"
+    ],
+    "cost": 530,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_022",
+    "part_name": "Suspension Control Arm",
+    "vehicle_models": [
+      "Model Z"
+    ],
+    "cost": 375,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_023",
+    "part_name": "Electrical Battery",
+    "vehicle_models": [
+      "Model AA"
+    ],
+    "cost": 210,
+    "in_stock": false,
+    "eta_if_not_available_days": 3,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_024",
+    "part_name": "Fuel Filter",
+    "vehicle_models": [
+      "Model BB"
+    ],
+    "cost": 55,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_025",
+    "part_name": "Engine Mount",
+    "vehicle_models": [
+      "Model CC"
+    ],
+    "cost": 310,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_001",
+    "part_name": "Oil Filter",
+    "vehicle_models": [
+      "Model A"
+    ],
+    "cost": 25,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_002",
+    "part_name": "Air Filter",
+    "vehicle_models": [
+      "Model B"
+    ],
+    "cost": 30,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_003",
+    "part_name": "Brake Pad Set",
+    "vehicle_models": [
+      "Model C"
+    ],
+    "cost": 120,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_004",
+    "part_name": "Spark Plug",
+    "vehicle_models": [
+      "Model D"
+    ],
+    "cost": 15,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_005",
+    "part_name": "Radiator",
+    "vehicle_models": [
+      "Model E"
+    ],
+    "cost": 250,
+    "in_stock": false,
+    "eta_if_not_available_days": 5,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_006",
+    "part_name": "Fuel Pump",
+    "vehicle_models": [
+      "Model F"
+    ],
+    "cost": 180,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_007",
+    "part_name": "Alternator",
+    "vehicle_models": [
+      "Model G"
+    ],
+    "cost": 210,
+    "in_stock": false,
+    "eta_if_not_available_days": 7,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_008",
+    "part_name": "Starter Motor",
+    "vehicle_models": [
+      "Model H"
+    ],
+    "cost": 190,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_009",
+    "part_name": "Clutch Kit",
+    "vehicle_models": [
+      "Model I"
+    ],
+    "cost": 350,
+    "in_stock": false,
+    "eta_if_not_available_days": 10,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_010",
+    "part_name": "Catalytic Converter",
+    "vehicle_models": [
+      "Model J"
+    ],
+    "cost": 400,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_011",
+    "part_name": "Thermostat",
+    "vehicle_models": [
+      "Model K"
+    ],
+    "cost": 45,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_012",
+    "part_name": "Timing Belt",
+    "vehicle_models": [
+      "Model L"
+    ],
+    "cost": 130,
+    "in_stock": false,
+    "eta_if_not_available_days": 6,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_013",
+    "part_name": "Water Pump",
+    "vehicle_models": [
+      "Model M"
+    ],
+    "cost": 115,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_014",
+    "part_name": "Oxygen Sensor",
+    "vehicle_models": [
+      "Model N"
+    ],
+    "cost": 80,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_015",
+    "part_name": "Brake Rotor",
+    "vehicle_models": [
+      "Model O"
+    ],
+    "cost": 95,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_016",
+    "part_name": "Transmission Fluid",
+    "vehicle_models": [
+      "Model P"
+    ],
+    "cost": 55,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_017",
+    "part_name": "Drive Belt",
+    "vehicle_models": [
+      "Model Q"
+    ],
+    "cost": 40,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_018",
+    "part_name": "HVAC Compressor",
+    "vehicle_models": [
+      "Model R"
+    ],
+    "cost": 260,
+    "in_stock": false,
+    "eta_if_not_available_days": 8,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_019",
+    "part_name": "Power Steering Pump",
+    "vehicle_models": [
+      "Model S"
+    ],
+    "cost": 150,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_020",
+    "part_name": "Fuel Injector",
+    "vehicle_models": [
+      "Model T"
+    ],
+    "cost": 140,
+    "in_stock": false,
+    "eta_if_not_available_days": 4,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_021",
+    "part_name": "Exhaust Muffler",
+    "vehicle_models": [
+      "Model U"
+    ],
+    "cost": 120,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_022",
+    "part_name": "Camshaft",
+    "vehicle_models": [
+      "Model V"
+    ],
+    "cost": 300,
+    "in_stock": false,
+    "eta_if_not_available_days": 12,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_023",
+    "part_name": "Engine Mount",
+    "vehicle_models": [
+      "Model W"
+    ],
+    "cost": 70,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_024",
+    "part_name": "Shock Absorber",
+    "vehicle_models": [
+      "Model X"
+    ],
+    "cost": 110,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_025",
+    "part_name": "Control Arm",
+    "vehicle_models": [
+      "Model Y"
+    ],
+    "cost": 130,
+    "in_stock": false,
+    "eta_if_not_available_days": 9,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_001",
+    "part_name": "Oil Filter",
+    "vehicle_models": [
+      "Model A",
+      "Model B"
+    ],
+    "cost": 15,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_002",
+    "part_name": "Air Filter",
+    "vehicle_models": [
+      "Model C"
+    ],
+    "cost": 22,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_003",
+    "part_name": "Brake Pad Set",
+    "vehicle_models": [
+      "Model D",
+      "Model E"
+    ],
+    "cost": 85,
+    "in_stock": false,
+    "eta_if_not_available_days": 3,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_004",
+    "part_name": "Spark Plug",
+    "vehicle_models": [
+      "Model F"
+    ],
+    "cost": 9,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_005",
+    "part_name": "Fuel Pump",
+    "vehicle_models": [
+      "Model G",
+      "Model H"
+    ],
+    "cost": 120,
+    "in_stock": false,
+    "eta_if_not_available_days": 5,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_006",
+    "part_name": "Radiator",
+    "vehicle_models": [
+      "Model I"
+    ],
+    "cost": 210,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_007",
+    "part_name": "Transmission Fluid",
+    "vehicle_models": [
+      "Model J"
+    ],
+    "cost": 30,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_008",
+    "part_name": "Brake Rotor",
+    "vehicle_models": [
+      "Model K"
+    ],
+    "cost": 70,
+    "in_stock": false,
+    "eta_if_not_available_days": 4,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_009",
+    "part_name": "Battery",
+    "vehicle_models": [
+      "Model L",
+      "Model M"
+    ],
+    "cost": 140,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_010",
+    "part_name": "Alternator",
+    "vehicle_models": [
+      "Model N"
+    ],
+    "cost": 190,
+    "in_stock": false,
+    "eta_if_not_available_days": 6,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_011",
+    "part_name": "Catalytic Converter",
+    "vehicle_models": [
+      "Model O"
+    ],
+    "cost": 350,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_012",
+    "part_name": "Timing Belt",
+    "vehicle_models": [
+      "Model P"
+    ],
+    "cost": 95,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_013",
+    "part_name": "Clutch Kit",
+    "vehicle_models": [
+      "Model Q"
+    ],
+    "cost": 260,
+    "in_stock": false,
+    "eta_if_not_available_days": 7,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_014",
+    "part_name": "Oxygen Sensor",
+    "vehicle_models": [
+      "Model R"
+    ],
+    "cost": 45,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_015",
+    "part_name": "Water Pump",
+    "vehicle_models": [
+      "Model S"
+    ],
+    "cost": 80,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_016",
+    "part_name": "Power Steering Pump",
+    "vehicle_models": [
+      "Model T"
+    ],
+    "cost": 130,
+    "in_stock": false,
+    "eta_if_not_available_days": 2,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_017",
+    "part_name": "Fuel Injector",
+    "vehicle_models": [
+      "Model U"
+    ],
+    "cost": 65,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_018",
+    "part_name": "EGR Valve",
+    "vehicle_models": [
+      "Model V"
+    ],
+    "cost": 55,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_019",
+    "part_name": "Cabin Air Filter",
+    "vehicle_models": [
+      "Model W"
+    ],
+    "cost": 18,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_020",
+    "part_name": "Drive Belt",
+    "vehicle_models": [
+      "Model X"
+    ],
+    "cost": 27,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_021",
+    "part_name": "Shock Absorber",
+    "vehicle_models": [
+      "Model Y"
+    ],
+    "cost": 115,
+    "in_stock": false,
+    "eta_if_not_available_days": 3,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_022",
+    "part_name": "Strut Assembly",
+    "vehicle_models": [
+      "Model Z"
+    ],
+    "cost": 210,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_023",
+    "part_name": "Coolant Hose",
+    "vehicle_models": [
+      "Model AA"
+    ],
+    "cost": 22,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_024",
+    "part_name": "Thermostat",
+    "vehicle_models": [
+      "Model BB"
+    ],
+    "cost": 38,
+    "in_stock": false,
+    "eta_if_not_available_days": 2,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_025",
+    "part_name": "Brake Caliper",
+    "vehicle_models": [
+      "Model CC"
+    ],
+    "cost": 95,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_001",
+    "part_name": "Oil Filter",
+    "vehicle_models": [
+      "Model X"
+    ],
+    "cost": 25,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_002",
+    "part_name": "Air Filter",
+    "vehicle_models": [
+      "Model Y"
+    ],
+    "cost": 30,
+    "in_stock": false,
+    "eta_if_not_available_days": 5,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_003",
+    "part_name": "Brake Pad Set",
+    "vehicle_models": [
+      "Model Z"
+    ],
+    "cost": 120,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_004",
+    "part_name": "Spark Plug",
+    "vehicle_models": [
+      "Model A"
+    ],
+    "cost": 15,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_005",
+    "part_name": "Fuel Pump",
+    "vehicle_models": [
+      "Model B"
+    ],
+    "cost": 250,
+    "in_stock": false,
+    "eta_if_not_available_days": 7,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_006",
+    "part_name": "Radiator",
+    "vehicle_models": [
+      "Model C"
+    ],
+    "cost": 300,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_007",
+    "part_name": "Alternator",
+    "vehicle_models": [
+      "Model D"
+    ],
+    "cost": 220,
+    "in_stock": false,
+    "eta_if_not_available_days": 6,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_008",
+    "part_name": "Clutch Kit",
+    "vehicle_models": [
+      "Model E"
+    ],
+    "cost": 450,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_009",
+    "part_name": "Catalytic Converter",
+    "vehicle_models": [
+      "Model F"
+    ],
+    "cost": 600,
+    "in_stock": false,
+    "eta_if_not_available_days": 10,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_010",
+    "part_name": "Timing Belt",
+    "vehicle_models": [
+      "Model G"
+    ],
+    "cost": 180,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_011",
+    "part_name": "Water Pump",
+    "vehicle_models": [
+      "Model H"
+    ],
+    "cost": 140,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_012",
+    "part_name": "Brake Rotor",
+    "vehicle_models": [
+      "Model I"
+    ],
+    "cost": 85,
+    "in_stock": false,
+    "eta_if_not_available_days": 4,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_013",
+    "part_name": "Oxygen Sensor",
+    "vehicle_models": [
+      "Model J"
+    ],
+    "cost": 95,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_014",
+    "part_name": "Transmission Fluid",
+    "vehicle_models": [
+      "Model K"
+    ],
+    "cost": 55,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_015",
+    "part_name": "Drive Belt",
+    "vehicle_models": [
+      "Model L"
+    ],
+    "cost": 45,
+    "in_stock": false,
+    "eta_if_not_available_days": 3,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_016",
+    "part_name": "Power Steering Pump",
+    "vehicle_models": [
+      "Model M"
+    ],
+    "cost": 210,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_017",
+    "part_name": "Thermostat",
+    "vehicle_models": [
+      "Model N"
+    ],
+    "cost": 35,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_018",
+    "part_name": "Fuel Injector",
+    "vehicle_models": [
+      "Model O"
+    ],
+    "cost": 190,
+    "in_stock": false,
+    "eta_if_not_available_days": 8,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_019",
+    "part_name": "Shock Absorber",
+    "vehicle_models": [
+      "Model P"
+    ],
+    "cost": 150,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_020",
+    "part_name": "Steering Rack",
+    "vehicle_models": [
+      "Model Q"
+    ],
+    "cost": 400,
+    "in_stock": false,
+    "eta_if_not_available_days": 9,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_021",
+    "part_name": "Exhaust Muffler",
+    "vehicle_models": [
+      "Model R"
+    ],
+    "cost": 120,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_022",
+    "part_name": "Battery",
+    "vehicle_models": [
+      "Model S"
+    ],
+    "cost": 130,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_023",
+    "part_name": "Headlight Assembly",
+    "vehicle_models": [
+      "Model T"
+    ],
+    "cost": 210,
+    "in_stock": false,
+    "eta_if_not_available_days": 5,
+    "warranty_applicable": true,
+    "insurance_applicable": true
+  },
+  {
+    "part_id": "PART_024",
+    "part_name": "Air Conditioning Compressor",
+    "vehicle_models": [
+      "Model U"
+    ],
+    "cost": 350,
+    "in_stock": true,
+    "eta_if_not_available_days": 0,
+    "warranty_applicable": true,
+    "insurance_applicable": false
+  },
+  {
+    "part_id": "PART_025",
+    "part_name": "CV Joint",
+    "vehicle_models": [
+      "Model V"
+    ],
+    "cost": 180,
+    "in_stock": false,
+    "eta_if_not_available_days": 6,
+    "warranty_applicable": false,
+    "insurance_applicable": false
+  }
+]

@@ -1,0 +1,1202 @@
+[
+  {
+    "bay_id": "BAY_01",
+    "bay_type": "General",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_02",
+    "bay_type": "Engine",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_03",
+    "bay_type": "Transmission",
+    "availability": false,
+    "eta_if_unavailable_minutes": 30
+  },
+  {
+    "bay_id": "BAY_04",
+    "bay_type": "Brake",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_05",
+    "bay_type": "HVAC",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_06",
+    "bay_type": "Electrical",
+    "availability": false,
+    "eta_if_unavailable_minutes": 20
+  },
+  {
+    "bay_id": "BAY_07",
+    "bay_type": "Suspension",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_08",
+    "bay_type": "General",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_09",
+    "bay_type": "Exhaust",
+    "availability": false,
+    "eta_if_unavailable_minutes": 45
+  },
+  {
+    "bay_id": "BAY_10",
+    "bay_type": "Fuel System",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_11",
+    "bay_type": "Cooling System",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_12",
+    "bay_type": "General",
+    "availability": false,
+    "eta_if_unavailable_minutes": 25
+  },
+  {
+    "bay_id": "BAY_13",
+    "bay_type": "Engine",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_14",
+    "bay_type": "Transmission",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_15",
+    "bay_type": "Brake",
+    "availability": false,
+    "eta_if_unavailable_minutes": 15
+  },
+  {
+    "bay_id": "BAY_16",
+    "bay_type": "HVAC",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_17",
+    "bay_type": "Electrical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_18",
+    "bay_type": "Suspension",
+    "availability": false,
+    "eta_if_unavailable_minutes": 35
+  },
+  {
+    "bay_id": "BAY_19",
+    "bay_type": "General",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_20",
+    "bay_type": "Exhaust",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_21",
+    "bay_type": "Fuel System",
+    "availability": false,
+    "eta_if_unavailable_minutes": 40
+  },
+  {
+    "bay_id": "BAY_22",
+    "bay_type": "Cooling System",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_23",
+    "bay_type": "General",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_24",
+    "bay_type": "Engine",
+    "availability": false,
+    "eta_if_unavailable_minutes": 50
+  },
+  {
+    "bay_id": "BAY_25",
+    "bay_type": "Transmission",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_01",
+    "bay_type": "Mechanical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_02",
+    "bay_type": "Electrical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_03",
+    "bay_type": "Transmission",
+    "availability": false,
+    "eta_if_unavailable_minutes": 30
+  },
+  {
+    "bay_id": "BAY_04",
+    "bay_type": "HVAC",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_05",
+    "bay_type": "Brake",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_06",
+    "bay_type": "Suspension",
+    "availability": false,
+    "eta_if_unavailable_minutes": 45
+  },
+  {
+    "bay_id": "BAY_07",
+    "bay_type": "Engine",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_08",
+    "bay_type": "Exhaust",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_09",
+    "bay_type": "Cooling",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_10",
+    "bay_type": "Fuel System",
+    "availability": false,
+    "eta_if_unavailable_minutes": 20
+  },
+  {
+    "bay_id": "BAY_11",
+    "bay_type": "Electrical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_12",
+    "bay_type": "Mechanical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_13",
+    "bay_type": "HVAC",
+    "availability": false,
+    "eta_if_unavailable_minutes": 25
+  },
+  {
+    "bay_id": "BAY_14",
+    "bay_type": "Brake",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_15",
+    "bay_type": "Transmission",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_16",
+    "bay_type": "Suspension",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_17",
+    "bay_type": "Engine",
+    "availability": false,
+    "eta_if_unavailable_minutes": 40
+  },
+  {
+    "bay_id": "BAY_18",
+    "bay_type": "Exhaust",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_19",
+    "bay_type": "Cooling",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_20",
+    "bay_type": "Fuel System",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_21",
+    "bay_type": "Mechanical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_22",
+    "bay_type": "Electrical",
+    "availability": false,
+    "eta_if_unavailable_minutes": 15
+  },
+  {
+    "bay_id": "BAY_23",
+    "bay_type": "HVAC",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_24",
+    "bay_type": "Brake",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_25",
+    "bay_type": "Transmission",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_01",
+    "bay_type": "Mechanical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_02",
+    "bay_type": "Electrical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_03",
+    "bay_type": "Transmission",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_04",
+    "bay_type": "Cooling",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_05",
+    "bay_type": "Brake",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_06",
+    "bay_type": "Suspension",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_07",
+    "bay_type": "Engine",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_08",
+    "bay_type": "Air Conditioning",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_09",
+    "bay_type": "Exhaust",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_10",
+    "bay_type": "Fuel System",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_11",
+    "bay_type": "Steering",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_12",
+    "bay_type": "HVAC",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_13",
+    "bay_type": "Electrical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_14",
+    "bay_type": "Mechanical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_15",
+    "bay_type": "Transmission",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_16",
+    "bay_type": "Cooling",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_17",
+    "bay_type": "Brake",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_18",
+    "bay_type": "Suspension",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_19",
+    "bay_type": "Engine",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_20",
+    "bay_type": "Air Conditioning",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_21",
+    "bay_type": "Exhaust",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_22",
+    "bay_type": "Fuel System",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_23",
+    "bay_type": "Steering",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_24",
+    "bay_type": "HVAC",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_25",
+    "bay_type": "Mechanical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_01",
+    "bay_type": "General",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_02",
+    "bay_type": "General",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_03",
+    "bay_type": "Paint",
+    "availability": false,
+    "eta_if_unavailable_minutes": 30
+  },
+  {
+    "bay_id": "BAY_04",
+    "bay_type": "Mechanical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_05",
+    "bay_type": "Electrical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_06",
+    "bay_type": "General",
+    "availability": false,
+    "eta_if_unavailable_minutes": 45
+  },
+  {
+    "bay_id": "BAY_07",
+    "bay_type": "General",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_08",
+    "bay_type": "Paint",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_09",
+    "bay_type": "Mechanical",
+    "availability": false,
+    "eta_if_unavailable_minutes": 20
+  },
+  {
+    "bay_id": "BAY_10",
+    "bay_type": "Electrical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_11",
+    "bay_type": "General",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_12",
+    "bay_type": "General",
+    "availability": false,
+    "eta_if_unavailable_minutes": 25
+  },
+  {
+    "bay_id": "BAY_13",
+    "bay_type": "Paint",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_14",
+    "bay_type": "Mechanical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_15",
+    "bay_type": "Electrical",
+    "availability": false,
+    "eta_if_unavailable_minutes": 35
+  },
+  {
+    "bay_id": "BAY_16",
+    "bay_type": "General",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_17",
+    "bay_type": "General",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_18",
+    "bay_type": "Paint",
+    "availability": false,
+    "eta_if_unavailable_minutes": 40
+  },
+  {
+    "bay_id": "BAY_19",
+    "bay_type": "Mechanical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_20",
+    "bay_type": "Electrical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_21",
+    "bay_type": "General",
+    "availability": false,
+    "eta_if_unavailable_minutes": 15
+  },
+  {
+    "bay_id": "BAY_22",
+    "bay_type": "General",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_23",
+    "bay_type": "Paint",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_24",
+    "bay_type": "Mechanical",
+    "availability": false,
+    "eta_if_unavailable_minutes": 50
+  },
+  {
+    "bay_id": "BAY_25",
+    "bay_type": "Electrical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_01",
+    "bay_type": "Mechanical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_02",
+    "bay_type": "Electrical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_03",
+    "bay_type": "Mechanical",
+    "availability": false,
+    "eta_if_unavailable_minutes": 30
+  },
+  {
+    "bay_id": "BAY_04",
+    "bay_type": "HVAC",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_05",
+    "bay_type": "Inspection",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_06",
+    "bay_type": "Mechanical",
+    "availability": false,
+    "eta_if_unavailable_minutes": 45
+  },
+  {
+    "bay_id": "BAY_07",
+    "bay_type": "Electrical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_08",
+    "bay_type": "Mechanical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_09",
+    "bay_type": "HVAC",
+    "availability": false,
+    "eta_if_unavailable_minutes": 20
+  },
+  {
+    "bay_id": "BAY_10",
+    "bay_type": "Inspection",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_11",
+    "bay_type": "Mechanical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_12",
+    "bay_type": "Electrical",
+    "availability": false,
+    "eta_if_unavailable_minutes": 35
+  },
+  {
+    "bay_id": "BAY_13",
+    "bay_type": "Mechanical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_14",
+    "bay_type": "HVAC",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_15",
+    "bay_type": "Inspection",
+    "availability": false,
+    "eta_if_unavailable_minutes": 25
+  },
+  {
+    "bay_id": "BAY_16",
+    "bay_type": "Mechanical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_17",
+    "bay_type": "Electrical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_18",
+    "bay_type": "Mechanical",
+    "availability": false,
+    "eta_if_unavailable_minutes": 40
+  },
+  {
+    "bay_id": "BAY_19",
+    "bay_type": "HVAC",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_20",
+    "bay_type": "Inspection",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_21",
+    "bay_type": "Mechanical",
+    "availability": false,
+    "eta_if_unavailable_minutes": 15
+  },
+  {
+    "bay_id": "BAY_22",
+    "bay_type": "Electrical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_23",
+    "bay_type": "Mechanical",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_24",
+    "bay_type": "HVAC",
+    "availability": false,
+    "eta_if_unavailable_minutes": 22
+  },
+  {
+    "bay_id": "BAY_25",
+    "bay_type": "Inspection",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_01",
+    "bay_type": "Lift",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_02",
+    "bay_type": "Tire",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_03",
+    "bay_type": "Paint",
+    "availability": false,
+    "eta_if_unavailable_minutes": 30
+  },
+  {
+    "bay_id": "BAY_04",
+    "bay_type": "Diagnostics",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_05",
+    "bay_type": "Lift",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_06",
+    "bay_type": "Tire",
+    "availability": false,
+    "eta_if_unavailable_minutes": 45
+  },
+  {
+    "bay_id": "BAY_07",
+    "bay_type": "Paint",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_08",
+    "bay_type": "Diagnostics",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_09",
+    "bay_type": "Lift",
+    "availability": false,
+    "eta_if_unavailable_minutes": 20
+  },
+  {
+    "bay_id": "BAY_10",
+    "bay_type": "Tire",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_11",
+    "bay_type": "Paint",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_12",
+    "bay_type": "Diagnostics",
+    "availability": false,
+    "eta_if_unavailable_minutes": 25
+  },
+  {
+    "bay_id": "BAY_13",
+    "bay_type": "Lift",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_14",
+    "bay_type": "Tire",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_15",
+    "bay_type": "Paint",
+    "availability": false,
+    "eta_if_unavailable_minutes": 35
+  },
+  {
+    "bay_id": "BAY_16",
+    "bay_type": "Diagnostics",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_17",
+    "bay_type": "Lift",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_18",
+    "bay_type": "Tire",
+    "availability": false,
+    "eta_if_unavailable_minutes": 40
+  },
+  {
+    "bay_id": "BAY_19",
+    "bay_type": "Paint",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_20",
+    "bay_type": "Diagnostics",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_21",
+    "bay_type": "Lift",
+    "availability": false,
+    "eta_if_unavailable_minutes": 15
+  },
+  {
+    "bay_id": "BAY_22",
+    "bay_type": "Tire",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_23",
+    "bay_type": "Paint",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_24",
+    "bay_type": "Diagnostics",
+    "availability": false,
+    "eta_if_unavailable_minutes": 50
+  },
+  {
+    "bay_id": "BAY_25",
+    "bay_type": "Lift",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_01",
+    "bay_type": "Lift",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_02",
+    "bay_type": "Tire",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_03",
+    "bay_type": "Diagnostic",
+    "availability": false,
+    "eta_if_unavailable_minutes": 30
+  },
+  {
+    "bay_id": "BAY_04",
+    "bay_type": "Paint",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_05",
+    "bay_type": "Lift",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_06",
+    "bay_type": "Tire",
+    "availability": false,
+    "eta_if_unavailable_minutes": 45
+  },
+  {
+    "bay_id": "BAY_07",
+    "bay_type": "Diagnostic",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_08",
+    "bay_type": "Lift",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_09",
+    "bay_type": "Paint",
+    "availability": false,
+    "eta_if_unavailable_minutes": 60
+  },
+  {
+    "bay_id": "BAY_10",
+    "bay_type": "Tire",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_11",
+    "bay_type": "Diagnostic",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_12",
+    "bay_type": "Lift",
+    "availability": false,
+    "eta_if_unavailable_minutes": 20
+  },
+  {
+    "bay_id": "BAY_13",
+    "bay_type": "Paint",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_14",
+    "bay_type": "Tire",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_15",
+    "bay_type": "Diagnostic",
+    "availability": false,
+    "eta_if_unavailable_minutes": 35
+  },
+  {
+    "bay_id": "BAY_16",
+    "bay_type": "Lift",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_17",
+    "bay_type": "Paint",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_18",
+    "bay_type": "Tire",
+    "availability": false,
+    "eta_if_unavailable_minutes": 25
+  },
+  {
+    "bay_id": "BAY_19",
+    "bay_type": "Diagnostic",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_20",
+    "bay_type": "Lift",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_21",
+    "bay_type": "Paint",
+    "availability": false,
+    "eta_if_unavailable_minutes": 40
+  },
+  {
+    "bay_id": "BAY_22",
+    "bay_type": "Tire",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_23",
+    "bay_type": "Diagnostic",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_24",
+    "bay_type": "Lift",
+    "availability": false,
+    "eta_if_unavailable_minutes": 15
+  },
+  {
+    "bay_id": "BAY_25",
+    "bay_type": "Paint",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_01",
+    "bay_type": "Repair",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_02",
+    "bay_type": "Diagnostics",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_03",
+    "bay_type": "Paint",
+    "availability": false,
+    "eta_if_unavailable_minutes": 30
+  },
+  {
+    "bay_id": "BAY_04",
+    "bay_type": "Body",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_05",
+    "bay_type": "Engine",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_06",
+    "bay_type": "Transmission",
+    "availability": false,
+    "eta_if_unavailable_minutes": 45
+  },
+  {
+    "bay_id": "BAY_07",
+    "bay_type": "Brake",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_08",
+    "bay_type": "Suspension",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_09",
+    "bay_type": "Electrical",
+    "availability": false,
+    "eta_if_unavailable_minutes": 20
+  },
+  {
+    "bay_id": "BAY_10",
+    "bay_type": "Cooling",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_11",
+    "bay_type": "Fuel",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_12",
+    "bay_type": "Exhaust",
+    "availability": false,
+    "eta_if_unavailable_minutes": 15
+  },
+  {
+    "bay_id": "BAY_13",
+    "bay_type": "HVAC",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_14",
+    "bay_type": "Steering",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_15",
+    "bay_type": "Drivetrain",
+    "availability": false,
+    "eta_if_unavailable_minutes": 25
+  },
+  {
+    "bay_id": "BAY_16",
+    "bay_type": "Inspection",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_17",
+    "bay_type": "Alignment",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_18",
+    "bay_type": "Detailing",
+    "availability": false,
+    "eta_if_unavailable_minutes": 40
+  },
+  {
+    "bay_id": "BAY_19",
+    "bay_type": "Tire",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_20",
+    "bay_type": "Battery",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_21",
+    "bay_type": "Air Conditioning",
+    "availability": false,
+    "eta_if_unavailable_minutes": 35
+  },
+  {
+    "bay_id": "BAY_22",
+    "bay_type": "Transmission Service",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_23",
+    "bay_type": "Engine Service",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  },
+  {
+    "bay_id": "BAY_24",
+    "bay_type": "Brake Service",
+    "availability": false,
+    "eta_if_unavailable_minutes": 20
+  },
+  {
+    "bay_id": "BAY_25",
+    "bay_type": "General Repair",
+    "availability": true,
+    "eta_if_unavailable_minutes": 0
+  }
+]

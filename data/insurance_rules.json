@@ -1,0 +1,1402 @@
+[
+  {
+    "rule_id": "RULE_01",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_001",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_02",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_002",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 5
+  },
+  {
+    "rule_id": "RULE_03",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_003",
+    "max_vehicle_age_months": 24,
+    "discount_percentage": 12
+  },
+  {
+    "rule_id": "RULE_04",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_004",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 8
+  },
+  {
+    "rule_id": "RULE_05",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_005",
+    "max_vehicle_age_months": 30,
+    "discount_percentage": 7
+  },
+  {
+    "rule_id": "RULE_06",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_006",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 15
+  },
+  {
+    "rule_id": "RULE_07",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_007",
+    "max_vehicle_age_months": 24,
+    "discount_percentage": 6
+  },
+  {
+    "rule_id": "RULE_08",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_008",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 9
+  },
+  {
+    "rule_id": "RULE_09",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_009",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 11
+  },
+  {
+    "rule_id": "RULE_10",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_010",
+    "max_vehicle_age_months": 30,
+    "discount_percentage": 4
+  },
+  {
+    "rule_id": "RULE_11",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_011",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 13
+  },
+  {
+    "rule_id": "RULE_12",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_012",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_13",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_013",
+    "max_vehicle_age_months": 24,
+    "discount_percentage": 5
+  },
+  {
+    "rule_id": "RULE_14",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_014",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 9
+  },
+  {
+    "rule_id": "RULE_15",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_015",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 12
+  },
+  {
+    "rule_id": "RULE_16",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_016",
+    "max_vehicle_age_months": 30,
+    "discount_percentage": 6
+  },
+  {
+    "rule_id": "RULE_17",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_017",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 8
+  },
+  {
+    "rule_id": "RULE_18",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_018",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 11
+  },
+  {
+    "rule_id": "RULE_19",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_019",
+    "max_vehicle_age_months": 24,
+    "discount_percentage": 5
+  },
+  {
+    "rule_id": "RULE_20",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_020",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 9
+  },
+  {
+    "rule_id": "RULE_21",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_021",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 13
+  },
+  {
+    "rule_id": "RULE_22",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_022",
+    "max_vehicle_age_months": 30,
+    "discount_percentage": 4
+  },
+  {
+    "rule_id": "RULE_23",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_023",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_24",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_024",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 12
+  },
+  {
+    "rule_id": "RULE_25",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_025",
+    "max_vehicle_age_months": 24,
+    "discount_percentage": 6
+  },
+  {
+    "rule_id": "RULE_01",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_001",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_02",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_002",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 5
+  },
+  {
+    "rule_id": "RULE_03",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_003",
+    "max_vehicle_age_months": 24,
+    "discount_percentage": 15
+  },
+  {
+    "rule_id": "RULE_04",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_004",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 8
+  },
+  {
+    "rule_id": "RULE_05",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_005",
+    "max_vehicle_age_months": 72,
+    "discount_percentage": 12
+  },
+  {
+    "rule_id": "RULE_06",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_006",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_07",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_007",
+    "max_vehicle_age_months": 30,
+    "discount_percentage": 7
+  },
+  {
+    "rule_id": "RULE_08",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_008",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 9
+  },
+  {
+    "rule_id": "RULE_09",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_009",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 6
+  },
+  {
+    "rule_id": "RULE_10",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_010",
+    "max_vehicle_age_months": 24,
+    "discount_percentage": 14
+  },
+  {
+    "rule_id": "RULE_11",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_011",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 13
+  },
+  {
+    "rule_id": "RULE_12",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_012",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 5
+  },
+  {
+    "rule_id": "RULE_13",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_013",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 11
+  },
+  {
+    "rule_id": "RULE_14",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_014",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 4
+  },
+  {
+    "rule_id": "RULE_15",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_015",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 9
+  },
+  {
+    "rule_id": "RULE_16",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_016",
+    "max_vehicle_age_months": 30,
+    "discount_percentage": 8
+  },
+  {
+    "rule_id": "RULE_17",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_017",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_18",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_018",
+    "max_vehicle_age_months": 72,
+    "discount_percentage": 12
+  },
+  {
+    "rule_id": "RULE_19",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_019",
+    "max_vehicle_age_months": 24,
+    "discount_percentage": 13
+  },
+  {
+    "rule_id": "RULE_20",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_020",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 6
+  },
+  {
+    "rule_id": "RULE_21",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_021",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 11
+  },
+  {
+    "rule_id": "RULE_22",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_022",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 7
+  },
+  {
+    "rule_id": "RULE_23",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_023",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 14
+  },
+  {
+    "rule_id": "RULE_24",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_024",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 5
+  },
+  {
+    "rule_id": "RULE_25",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_025",
+    "max_vehicle_age_months": 24,
+    "discount_percentage": 9
+  },
+  {
+    "rule_id": "RULE_01",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_001",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_02",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_002",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 15
+  },
+  {
+    "rule_id": "RULE_03",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_003",
+    "max_vehicle_age_months": 24,
+    "discount_percentage": 5
+  },
+  {
+    "rule_id": "RULE_04",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_004",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 12
+  },
+  {
+    "rule_id": "RULE_05",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_005",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 8
+  },
+  {
+    "rule_id": "RULE_06",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_006",
+    "max_vehicle_age_months": 30,
+    "discount_percentage": 7
+  },
+  {
+    "rule_id": "RULE_07",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_007",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 9
+  },
+  {
+    "rule_id": "RULE_08",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_008",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 11
+  },
+  {
+    "rule_id": "RULE_09",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_009",
+    "max_vehicle_age_months": 24,
+    "discount_percentage": 6
+  },
+  {
+    "rule_id": "RULE_10",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_010",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 13
+  },
+  {
+    "rule_id": "RULE_11",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_011",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_12",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_012",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 14
+  },
+  {
+    "rule_id": "RULE_13",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_013",
+    "max_vehicle_age_months": 30,
+    "discount_percentage": 5
+  },
+  {
+    "rule_id": "RULE_14",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_014",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 12
+  },
+  {
+    "rule_id": "RULE_15",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_015",
+    "max_vehicle_age_months": 24,
+    "discount_percentage": 8
+  },
+  {
+    "rule_id": "RULE_16",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_016",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 9
+  },
+  {
+    "rule_id": "RULE_17",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_017",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 7
+  },
+  {
+    "rule_id": "RULE_18",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_018",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 13
+  },
+  {
+    "rule_id": "RULE_19",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_019",
+    "max_vehicle_age_months": 30,
+    "discount_percentage": 6
+  },
+  {
+    "rule_id": "RULE_20",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_020",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 15
+  },
+  {
+    "rule_id": "RULE_21",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_021",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 9
+  },
+  {
+    "rule_id": "RULE_22",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_022",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 14
+  },
+  {
+    "rule_id": "RULE_23",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_023",
+    "max_vehicle_age_months": 24,
+    "discount_percentage": 8
+  },
+  {
+    "rule_id": "RULE_24",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_024",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 12
+  },
+  {
+    "rule_id": "RULE_25",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_025",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_01",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_001",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_02",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_002",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 12
+  },
+  {
+    "rule_id": "RULE_03",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_003",
+    "max_vehicle_age_months": 72,
+    "discount_percentage": 15
+  },
+  {
+    "rule_id": "RULE_04",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_004",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 8
+  },
+  {
+    "rule_id": "RULE_05",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_005",
+    "max_vehicle_age_months": 84,
+    "discount_percentage": 20
+  },
+  {
+    "rule_id": "RULE_06",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_006",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_07",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_007",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 12
+  },
+  {
+    "rule_id": "RULE_08",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_008",
+    "max_vehicle_age_months": 72,
+    "discount_percentage": 15
+  },
+  {
+    "rule_id": "RULE_09",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_009",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 8
+  },
+  {
+    "rule_id": "RULE_10",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_010",
+    "max_vehicle_age_months": 84,
+    "discount_percentage": 20
+  },
+  {
+    "rule_id": "RULE_11",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_011",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_12",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_012",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 12
+  },
+  {
+    "rule_id": "RULE_13",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_013",
+    "max_vehicle_age_months": 72,
+    "discount_percentage": 15
+  },
+  {
+    "rule_id": "RULE_14",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_014",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 8
+  },
+  {
+    "rule_id": "RULE_15",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_015",
+    "max_vehicle_age_months": 84,
+    "discount_percentage": 20
+  },
+  {
+    "rule_id": "RULE_16",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_016",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_17",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_017",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 12
+  },
+  {
+    "rule_id": "RULE_18",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_018",
+    "max_vehicle_age_months": 72,
+    "discount_percentage": 15
+  },
+  {
+    "rule_id": "RULE_19",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_019",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 8
+  },
+  {
+    "rule_id": "RULE_20",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_020",
+    "max_vehicle_age_months": 84,
+    "discount_percentage": 20
+  },
+  {
+    "rule_id": "RULE_21",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_021",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_22",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_022",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 12
+  },
+  {
+    "rule_id": "RULE_23",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_023",
+    "max_vehicle_age_months": 72,
+    "discount_percentage": 15
+  },
+  {
+    "rule_id": "RULE_24",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_024",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 8
+  },
+  {
+    "rule_id": "RULE_25",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_025",
+    "max_vehicle_age_months": 84,
+    "discount_percentage": 20
+  },
+  {
+    "rule_id": "RULE_01",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_001",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_02",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_002",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 15
+  },
+  {
+    "rule_id": "RULE_03",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_003",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 12
+  },
+  {
+    "rule_id": "RULE_04",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_004",
+    "max_vehicle_age_months": 72,
+    "discount_percentage": 8
+  },
+  {
+    "rule_id": "RULE_05",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_005",
+    "max_vehicle_age_months": 24,
+    "discount_percentage": 5
+  },
+  {
+    "rule_id": "RULE_06",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_006",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_07",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_007",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 7
+  },
+  {
+    "rule_id": "RULE_08",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_008",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 14
+  },
+  {
+    "rule_id": "RULE_09",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_009",
+    "max_vehicle_age_months": 30,
+    "discount_percentage": 6
+  },
+  {
+    "rule_id": "RULE_10",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_010",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 9
+  },
+  {
+    "rule_id": "RULE_11",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_011",
+    "max_vehicle_age_months": 84,
+    "discount_percentage": 11
+  },
+  {
+    "rule_id": "RULE_12",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_012",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 13
+  },
+  {
+    "rule_id": "RULE_13",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_013",
+    "max_vehicle_age_months": 24,
+    "discount_percentage": 4
+  },
+  {
+    "rule_id": "RULE_14",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_014",
+    "max_vehicle_age_months": 72,
+    "discount_percentage": 12
+  },
+  {
+    "rule_id": "RULE_15",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_015",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 8
+  },
+  {
+    "rule_id": "RULE_16",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_016",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_17",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_017",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 9
+  },
+  {
+    "rule_id": "RULE_18",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_018",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 7
+  },
+  {
+    "rule_id": "RULE_19",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_019",
+    "max_vehicle_age_months": 30,
+    "discount_percentage": 5
+  },
+  {
+    "rule_id": "RULE_20",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_020",
+    "max_vehicle_age_months": 84,
+    "discount_percentage": 15
+  },
+  {
+    "rule_id": "RULE_21",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_021",
+    "max_vehicle_age_months": 24,
+    "discount_percentage": 6
+  },
+  {
+    "rule_id": "RULE_22",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_022",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 11
+  },
+  {
+    "rule_id": "RULE_23",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_023",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 13
+  },
+  {
+    "rule_id": "RULE_24",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_024",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 9
+  },
+  {
+    "rule_id": "RULE_25",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_025",
+    "max_vehicle_age_months": 30,
+    "discount_percentage": 8
+  },
+  {
+    "rule_id": "RULE_01",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_001",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_02",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_002",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 5
+  },
+  {
+    "rule_id": "RULE_03",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_003",
+    "max_vehicle_age_months": 72,
+    "discount_percentage": 12
+  },
+  {
+    "rule_id": "RULE_04",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_004",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 8
+  },
+  {
+    "rule_id": "RULE_05",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_005",
+    "max_vehicle_age_months": 84,
+    "discount_percentage": 15
+  },
+  {
+    "rule_id": "RULE_06",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_006",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 7
+  },
+  {
+    "rule_id": "RULE_07",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_007",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_08",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_008",
+    "max_vehicle_age_months": 72,
+    "discount_percentage": 6
+  },
+  {
+    "rule_id": "RULE_09",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_009",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 9
+  },
+  {
+    "rule_id": "RULE_10",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_010",
+    "max_vehicle_age_months": 84,
+    "discount_percentage": 5
+  },
+  {
+    "rule_id": "RULE_11",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_011",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 11
+  },
+  {
+    "rule_id": "RULE_12",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_012",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 4
+  },
+  {
+    "rule_id": "RULE_13",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_013",
+    "max_vehicle_age_months": 72,
+    "discount_percentage": 13
+  },
+  {
+    "rule_id": "RULE_14",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_014",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 7
+  },
+  {
+    "rule_id": "RULE_15",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_015",
+    "max_vehicle_age_months": 84,
+    "discount_percentage": 14
+  },
+  {
+    "rule_id": "RULE_16",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_016",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 6
+  },
+  {
+    "rule_id": "RULE_17",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_017",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 9
+  },
+  {
+    "rule_id": "RULE_18",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_018",
+    "max_vehicle_age_months": 72,
+    "discount_percentage": 8
+  },
+  {
+    "rule_id": "RULE_19",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_019",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_20",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_020",
+    "max_vehicle_age_months": 84,
+    "discount_percentage": 5
+  },
+  {
+    "rule_id": "RULE_21",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_021",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 12
+  },
+  {
+    "rule_id": "RULE_22",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_022",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 7
+  },
+  {
+    "rule_id": "RULE_23",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_023",
+    "max_vehicle_age_months": 72,
+    "discount_percentage": 11
+  },
+  {
+    "rule_id": "RULE_24",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_024",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 6
+  },
+  {
+    "rule_id": "RULE_25",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_025",
+    "max_vehicle_age_months": 84,
+    "discount_percentage": 13
+  },
+  {
+    "rule_id": "RULE_01",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_001",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_02",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_002",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 5
+  },
+  {
+    "rule_id": "RULE_03",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_003",
+    "max_vehicle_age_months": 24,
+    "discount_percentage": 15
+  },
+  {
+    "rule_id": "RULE_04",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_004",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 8
+  },
+  {
+    "rule_id": "RULE_05",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_005",
+    "max_vehicle_age_months": 30,
+    "discount_percentage": 12
+  },
+  {
+    "rule_id": "RULE_06",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_006",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_07",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_007",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 7
+  },
+  {
+    "rule_id": "RULE_08",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_008",
+    "max_vehicle_age_months": 24,
+    "discount_percentage": 14
+  },
+  {
+    "rule_id": "RULE_09",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_009",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 6
+  },
+  {
+    "rule_id": "RULE_10",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_010",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 9
+  },
+  {
+    "rule_id": "RULE_11",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_011",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 5
+  },
+  {
+    "rule_id": "RULE_12",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_012",
+    "max_vehicle_age_months": 30,
+    "discount_percentage": 11
+  },
+  {
+    "rule_id": "RULE_13",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_013",
+    "max_vehicle_age_months": 24,
+    "discount_percentage": 13
+  },
+  {
+    "rule_id": "RULE_14",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_014",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 7
+  },
+  {
+    "rule_id": "RULE_15",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_015",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 9
+  },
+  {
+    "rule_id": "RULE_16",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_016",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_17",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_017",
+    "max_vehicle_age_months": 30,
+    "discount_percentage": 8
+  },
+  {
+    "rule_id": "RULE_18",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_018",
+    "max_vehicle_age_months": 24,
+    "discount_percentage": 12
+  },
+  {
+    "rule_id": "RULE_19",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_019",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 6
+  },
+  {
+    "rule_id": "RULE_20",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_020",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 9
+  },
+  {
+    "rule_id": "RULE_21",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_021",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 7
+  },
+  {
+    "rule_id": "RULE_22",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_022",
+    "max_vehicle_age_months": 30,
+    "discount_percentage": 11
+  },
+  {
+    "rule_id": "RULE_23",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_023",
+    "max_vehicle_age_months": 24,
+    "discount_percentage": 13
+  },
+  {
+    "rule_id": "RULE_24",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_024",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 8
+  },
+  {
+    "rule_id": "RULE_25",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_025",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 9
+  },
+  {
+    "rule_id": "RULE_01",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_001",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_02",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_002",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 5
+  },
+  {
+    "rule_id": "RULE_03",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_003",
+    "max_vehicle_age_months": 72,
+    "discount_percentage": 12
+  },
+  {
+    "rule_id": "RULE_04",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_004",
+    "max_vehicle_age_months": 84,
+    "discount_percentage": 8
+  },
+  {
+    "rule_id": "RULE_05",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_005",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 7
+  },
+  {
+    "rule_id": "RULE_06",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_006",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_07",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_007",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 6
+  },
+  {
+    "rule_id": "RULE_08",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_008",
+    "max_vehicle_age_months": 72,
+    "discount_percentage": 11
+  },
+  {
+    "rule_id": "RULE_09",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_009",
+    "max_vehicle_age_months": 84,
+    "discount_percentage": 9
+  },
+  {
+    "rule_id": "RULE_10",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_010",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 5
+  },
+  {
+    "rule_id": "RULE_11",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_011",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_12",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_012",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 8
+  },
+  {
+    "rule_id": "RULE_13",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_013",
+    "max_vehicle_age_months": 72,
+    "discount_percentage": 6
+  },
+  {
+    "rule_id": "RULE_14",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_014",
+    "max_vehicle_age_months": 84,
+    "discount_percentage": 9
+  },
+  {
+    "rule_id": "RULE_15",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_015",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 5
+  },
+  {
+    "rule_id": "RULE_16",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_016",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_17",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_017",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 7
+  },
+  {
+    "rule_id": "RULE_18",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_018",
+    "max_vehicle_age_months": 72,
+    "discount_percentage": 6
+  },
+  {
+    "rule_id": "RULE_19",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_019",
+    "max_vehicle_age_months": 84,
+    "discount_percentage": 9
+  },
+  {
+    "rule_id": "RULE_20",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_020",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 8
+  },
+  {
+    "rule_id": "RULE_21",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_021",
+    "max_vehicle_age_months": 60,
+    "discount_percentage": 5
+  },
+  {
+    "rule_id": "RULE_22",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_022",
+    "max_vehicle_age_months": 48,
+    "discount_percentage": 10
+  },
+  {
+    "rule_id": "RULE_23",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_023",
+    "max_vehicle_age_months": 72,
+    "discount_percentage": 7
+  },
+  {
+    "rule_id": "RULE_24",
+    "coverage_type": "WARRANTY",
+    "part_id": "PART_024",
+    "max_vehicle_age_months": 84,
+    "discount_percentage": 11
+  },
+  {
+    "rule_id": "RULE_25",
+    "coverage_type": "INSURANCE",
+    "part_id": "PART_025",
+    "max_vehicle_age_months": 36,
+    "discount_percentage": 6
+  }
+]
