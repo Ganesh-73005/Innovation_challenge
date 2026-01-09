@@ -160,14 +160,12 @@ Return ONLY the question as a plain string, nothing else.
 Example: "When does the noise occur - during acceleration, idling, or braking?"""
 
     try:
-        response = groq_client.chat.completions.create(
-            model="openai/gpt-oss-120b",
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.7,
-            max_tokens=200
+        response = gemini_client.models.generate_content(
+            model="gemini-3-flash-preview",
+            contents=prompt
         )
         
-        question = response.choices[0].message.content.strip()
+        question = response.text.strip()
         # Remove quotes if present
         if question.startswith('"') and question.endswith('"'):
             question = question[1:-1]
@@ -384,7 +382,7 @@ async def diagnose_image(
         
         # Call Gemini API with new format
         response = gemini_client.models.generate_content(
-            model="gemini-2.0-flash-exp",
+            model="gemini-3-flash-preview",
             contents=[
                 types.Part.from_bytes(
                     data=image_bytes,
@@ -417,199 +415,213 @@ async def diagnose_image(
 
 @app.post("/api/diagnose/text")
 def diagnose_text(request: DiagnoseRequest):
-    """Text input diagnosis"""
-    # Get or create conversation
+    """
+    Initial text diagnosis endpoint.
+    This endpoint should ONLY be used for the first symptom input.
+    All follow-up answers must go to /api/diagnose/answer
+    """
+
+    # -----------------------------
+    # CASE 1: conversation_id sent accidentally
+    # -----------------------------
     if request.conversation_id:
-        conversation = db.conversations.find_one({"conversation_id": request.conversation_id}, {"_id": 0})
+        conversation = db.conversations.find_one(
+            {"conversation_id": request.conversation_id},
+            {"_id": 0}
+        )
+
         if not conversation:
             raise HTTPException(status_code=404, detail="Conversation not found")
-        
-        # This shouldn't happen - text endpoint should only be called for initial symptom
-        # Answers should go through /api/diagnose/answer
-        question_count = conversation.get('question_count', 0)
+
+        # Never generate a new question here
+        asked_questions = conversation.get("asked_questions", [])
+        question_count = len(asked_questions)
+
+        # If already finalized, return estimation
         if question_count >= 3:
-            # All questions answered, return estimation
             sorted_problems = sorted(
-                conversation['top_problems'],
-                key=lambda x: conversation.get('problem_weights', {}).get(x['problem_id'], 0),
+                conversation["top_problems"],
+                key=lambda p: conversation["problem_weights"].get(p["problem_id"], 0),
                 reverse=True
             )
             top_3 = sorted_problems[:3]
-            
-            db.conversations.update_one(
-                {"conversation_id": conversation['conversation_id']},
-                {"$set": {"narrowed_problems": top_3}}
-            )
-            
+
             return {
-                "conversation_id": conversation['conversation_id'],
+                "conversation_id": conversation["conversation_id"],
                 "stage": "estimation",
                 "top_problems": top_3
             }
-        else:
-            # Return current question (shouldn't normally happen)
-            asked_questions = conversation.get('asked_questions', [])
-            question = generate_clarification_questions(
-                conversation['top_problems'][:5],
-                asked_questions,
-                question_count + 1
-            )
-            return {
-                "conversation_id": conversation['conversation_id'],
-                "stage": "clarification",
-                "question": question,
-                "question_number": question_count + 1,
-                "total_questions": 3
-            }
-    else:
-        # New conversation
-        conversation_id = f"CONV_{datetime.now(timezone.utc).strftime('%Y%m%d%H%M%S%f')}"
-        
-        # RAG retrieval for initial query - get top 10
-        top_10 = get_rag_retrieval(request.text, 10)
-        
-        if not top_10:
-            return {
-                "conversation_id": conversation_id,
-                "stage": "error",
-                "message": "Could not identify any potential problems. Please provide more details."
-            }
-        
-        # Initialize weights for all problems
-        problem_weights = {}
-        for problem in top_10:
-            problem_weights[problem['problem_id']] = problem['similarity_score']
-        
-        conversation = {
-            "conversation_id": conversation_id,
-            "customer_id": request.customer_id,
-            "vehicle_id": request.vehicle_id,
-            "symptom_text": request.text,
-            "top_problems": top_10,
-            "problem_weights": problem_weights,
-            "asked_questions": [],
-            "answers": [],
-            "question_count": 0,
-            "created_at": datetime.now(timezone.utc)
+
+        # Otherwise return LAST asked question
+        return {
+            "conversation_id": conversation["conversation_id"],
+            "stage": "clarification",
+            "question": asked_questions[-1],
+            "question_number": question_count,
+            "total_questions": 3
         }
-        db.conversations.insert_one(conversation)
-        
-        # Generate first question
-        question = generate_clarification_questions(top_10[:5], [], 1)
-        
+
+    # -----------------------------
+    # CASE 2: NEW conversation
+    # -----------------------------
+    conversation_id = f"CONV_{datetime.now(timezone.utc).strftime('%Y%m%d%H%M%S%f')}"
+
+    # RAG retrieval (Top 10)
+    top_10 = get_rag_retrieval(request.text, 10)
+
+    if not top_10:
         return {
             "conversation_id": conversation_id,
-            "stage": "clarification",
-            "question": question,
-            "question_number": 1,
-            "total_questions": 3,
-            "top_10_problems": [p['problem_name'] for p in top_10[:10]]
+            "stage": "error",
+            "message": "Could not identify any potential problems. Please provide more details."
         }
+
+    # Initialize weights from similarity
+    problem_weights = {
+        p["problem_id"]: p["similarity_score"]
+        for p in top_10
+    }
+
+    # Generate FIRST clarification question
+    first_question = generate_clarification_questions(
+        top_10[:5],
+        [],
+        1
+    )
+
+    # Create conversation document
+    conversation = {
+        "conversation_id": conversation_id,
+        "customer_id": request.customer_id,
+        "vehicle_id": request.vehicle_id,
+        "symptom_text": request.text,
+        "top_problems": top_10,
+        "problem_weights": problem_weights,
+        "asked_questions": [first_question],   # ✅ STORED IMMEDIATELY
+        "answers": [],
+        "question_count": 1,
+        "created_at": datetime.now(timezone.utc)
+    }
+
+    db.conversations.insert_one(conversation)
+
+    return {
+        "conversation_id": conversation_id,
+        "stage": "clarification",
+        "question": first_question,
+        "question_number": 1,
+        "total_questions": 3
+    }
 
 @app.post("/api/diagnose/answer")
 def answer_question(request: AnswerRequest):
-    """Store answer and continue diagnosis with weight adjustment"""
-    conversation = db.conversations.find_one({"conversation_id": request.conversation_id}, {"_id": 0})
+    conversation = db.conversations.find_one(
+        {"conversation_id": request.conversation_id},
+        {"_id": 0}
+    )
+
     if not conversation:
         raise HTTPException(status_code=404, detail="Conversation not found")
-    
+
+    asked_questions = conversation["asked_questions"]
+    answers = conversation["answers"]
+    problem_weights = conversation["problem_weights"]
+
+    # ✅ ALWAYS use the LAST asked question
+    current_question = asked_questions[-1]
+
     # Store answer
-    asked_questions = conversation.get('asked_questions', [])
-    answers = conversation.get('answers', [])
-    problem_weights = conversation.get('problem_weights', {})
-    
-    # Get the current question to store it
-    current_question_count = len(asked_questions)
-    current_question = generate_clarification_questions(
-        conversation['top_problems'][:5],
-        asked_questions,
-        current_question_count + 1
-    )
-    
-    # Use LLM to analyze answer and adjust weights
+    answers.append(request.answer)
+
+    # ---- Weight adjustment using LLM ----
     try:
-        prompt = f"""Analyze this customer answer and determine which problems are more likely.
+        prompt = f"""
+Analyze this customer response and update likelihoods.
 
 Top Problems:
 {json.dumps(conversation['top_problems'][:5], indent=2)}
 
-Question: {current_question}
-Customer Answer: {request.answer}
+Question:
+{current_question}
 
-Return a JSON object with problem_ids as keys and weight adjustments as values (between -0.2 to +0.3).
-Only include problems that are affected by this answer. Be specific based on the answer.
+Customer Answer:
+{request.answer}
 
-Example: {{"SP001": 0.2, "SP002": -0.1}}"""
+Return ONLY JSON:
+{{ "PROBLEM_ID": weight_adjustment (-0.2 to +0.3) }}
+"""
 
-        response = groq_client.chat.completions.create(
-            model="openai/gpt-oss-120b",
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.3,
-            max_tokens=200
+        response = gemini_client.models.generate_content(
+            model="gemini-3-flash-preview",
+            contents=prompt
         )
-        
-        # Parse weight adjustments
-        response_text = response.choices[0].message.content.strip()
-        start = response_text.find('{')
-        end = response_text.rfind('}') + 1
-        if start >= 0 and end > start:
-            adjustments = json.loads(response_text[start:end])
-            for prob_id, adjustment in adjustments.items():
-                if prob_id in problem_weights:
-                    problem_weights[prob_id] = max(0, problem_weights[prob_id] + adjustment)
+
+        text = response.text
+        start, end = text.find("{"), text.rfind("}") + 1
+
+        if start >= 0:
+            adjustments = json.loads(text[start:end])
+            for pid, delta in adjustments.items():
+                if pid in problem_weights:
+                    problem_weights[pid] = max(0, problem_weights[pid] + delta)
+
     except Exception as e:
-        print(f"Error adjusting weights: {e}")
-    
-    # Update conversation - store both question and answer
-    asked_questions.append(current_question)
-    answers.append(request.answer)
-    question_count = len(asked_questions)
-    
-    db.conversations.update_one(
-        {"conversation_id": request.conversation_id},
-        {"$set": {
-            "asked_questions": asked_questions,
-            "answers": answers,
-            "question_count": question_count,
-            "problem_weights": problem_weights
-        }}
-    )
-    
-    # Check if we need more questions
+        print("Weight update failed:", e)
+
+    # ---- Decide next step ----
+    question_count = len(answers)
+
     if question_count < 3:
         next_question = generate_clarification_questions(
-            conversation['top_problems'][:5],
+            conversation["top_problems"][:5],
             asked_questions,
             question_count + 1
         )
-        
+        print(next_question)
+        asked_questions.append(next_question)
+
+        db.conversations.update_one(
+            {"conversation_id": request.conversation_id},
+            {"$set": {
+                "answers": answers,
+                "asked_questions": asked_questions,
+                "question_count": len(asked_questions),
+                "problem_weights": problem_weights
+            }}
+        )
+
         return {
             "conversation_id": request.conversation_id,
             "stage": "clarification",
             "question": next_question,
-            "question_number": question_count + 1,
+            "question_number": len(asked_questions),
             "total_questions": 3
         }
-    
-    # Calculate top 3 based on weights
+
+    # ---- FINALIZE TOP 3 ----
     sorted_problems = sorted(
-        conversation['top_problems'],
-        key=lambda x: problem_weights.get(x['problem_id'], 0),
+        conversation["top_problems"],
+        key=lambda p: problem_weights.get(p["problem_id"], 0),
         reverse=True
     )
+
     top_3 = sorted_problems[:3]
-    
-    # Update conversation with narrowed problems
+
     db.conversations.update_one(
         {"conversation_id": request.conversation_id},
-        {"$set": {"narrowed_problems": top_3}}
+        {"$set": {
+            "answers": answers,
+            "problem_weights": problem_weights,
+            "narrowed_problems": top_3
+        }}
     )
-    
+
     return {
         "conversation_id": request.conversation_id,
         "stage": "estimation",
         "top_problems": top_3
     }
+
 
 @app.get("/api/estimate/{conversation_id}")
 def get_estimates(conversation_id: str):
