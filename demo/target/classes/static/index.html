@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Discount Calculator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+        }
+        
+        input, select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+        
+        input:focus, select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            width: 100%;
+        }
+        
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        button:active {
+            transform: translateY(0);
+        }
+        
+        .result {
+            background: #f5f5f5;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            display: none;
+        }
+        
+        .result.show {
+            display: block;
+        }
+        
+        .result-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .result-row:last-child {
+            border-bottom: none;
+        }
+        
+        .result-label {
+            font-weight: 600;
+            color: #333;
+        }
+        
+        .result-value {
+            color: #667eea;
+            font-weight: 700;
+        }
+        
+        .status {
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            display: none;
+        }
+        
+        .status.show {
+            display: block;
+        }
+        
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        
+        .status.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        
+        .tab-btn {
+            background: transparent;
+            color: #333;
+            padding: 10px 20px;
+            border: none;
+            border-bottom: 3px solid transparent;
+            cursor: pointer;
+            font-weight: 600;
+            width: auto;
+        }
+        
+        .tab-btn.active {
+            color: #667eea;
+            border-bottom-color: #667eea;
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        .highlight {
+            background: #fff3cd;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            border-left: 4px solid #ffc107;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚗 Insurance Discount Calculator</h1>
+        
+        <div class="card">
+            <div class="tabs">
+                <button class="tab-btn active" onclick="switchTab('save')">Add Policy</button>
+                <button class="tab-btn" onclick="switchTab('estimate')">Get Estimate</button>
+            </div>
+            
+            <!-- Save Policy Tab -->
+            <div id="save" class="tab-content active">
+                <div class="highlight">
+                    <strong>Step 1:</strong> Create an insurance policy first
+                </div>
+                
+                <div id="saveStatus" class="status"></div>
+                
+                <div class="form-group">
+                    <label for="policyNumber">Policy Number *</label>
+                    <input type="text" id="policyNumber" placeholder="e.g., POL123" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="provider">Insurance Provider *</label>
+                    <input type="text" id="provider" placeholder="e.g., SafeInsure" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="coverageType">Coverage Type *</label>
+                    <select id="coverageType" required>
+                        <option value="">-- Select Coverage --</option>
+                        <option value="COMPREHENSIVE">Comprehensive</option>
+                        <option value="THIRD_PARTY">Third Party</option>
+                        <option value="ZERO_DEP">Zero Deductible</option>
+                        <option value="NONE">None</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="expiryDate">Expiry Date *</label>
+                    <input type="date" id="expiryDate" required>
+                </div>
+                
+                <button onclick="savePolicy()">💾 Save Policy</button>
+            </div>
+            
+            <!-- Estimate Tab -->
+            <div id="estimate" class="tab-content">
+                <div class="highlight">
+                    <strong>Step 2:</strong> Calculate service estimate with insurance
+                </div>
+                
+                <div id="estimateStatus" class="status"></div>
+                
+                <div class="form-group">
+                    <label for="estimatePolicyNumber">Policy Number *</label>
+                    <input type="text" id="estimatePolicyNumber" placeholder="e.g., POL123" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="serviceType">Service Type *</label>
+                    <select id="serviceType" required>
+                        <option value="">-- Select Service --</option>
+                        <option value="ACCIDENT_DAMAGE">Accident Damage</option>
+                        <option value="ENGINE_REPAIR">Engine Repair</option>
+                        <option value="BRAKE_SERVICE">Brake Service</option>
+                        <option value="MAINTENANCE">Maintenance</option>
+                    </select>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="partsCost">Parts Cost ($) *</label>
+                        <input type="number" id="partsCost" placeholder="10000" min="0" step="0.01" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="laborCost">Labor Cost ($) *</label>
+                        <input type="number" id="laborCost" placeholder="4000" min="0" step="0.01" required>
+                    </div>
+                </div>
+                
+                <button onclick="getEstimate()">📊 Calculate Estimate</button>
+                
+                <div id="result" class="result">
+                    <h3 style="margin-bottom: 20px; color: #333;">💰 Estimate Breakdown</h3>
+                    <div class="result-row">
+                        <span class="result-label">Total Cost:</span>
+                        <span class="result-value" id="totalCost">$0.00</span>
+                    </div>
+                    <div class="result-row">
+                        <span class="result-label">Insurance Covers (70%):</span>
+                        <span class="result-value" id="insuranceCovered" style="color: #28a745;">$0.00</span>
+                    </div>
+                    <div class="result-row">
+                        <span class="result-label">You Pay (30%):</span>
+                        <span class="result-value" id="customerPayable" style="color: #dc3545;">$0.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card" style="background: #f8f9fa; border-left: 4px solid #667eea;">
+            <h3>ℹ️ How It Works</h3>
+            <p style="margin-top: 10px; line-height: 1.6; color: #555;">
+                1. <strong>Add a Policy:</strong> Create an insurance policy with your details<br>
+                2. <strong>Get Estimate:</strong> Request a service estimate using the policy number<br>
+                3. <strong>View Breakdown:</strong> See how much insurance covers (70%) and what you pay (30%)<br>
+                <br>
+                <strong>Note:</strong> Service coverage depends on insurance type and service category. 
+                COMPREHENSIVE and ZERO_DEP policies cover ACCIDENT_DAMAGE services.
+            </p>
+        </div>
+    </div>
+    
+    <script>
+        function switchTab(tab) {
+            // Hide all tabs
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+            
+            // Show selected tab
+            document.getElementById(tab).classList.add('active');
+            event.target.classList.add('active');
+        }
+        
+        function showStatus(elementId, message, type) {
+            const statusEl = document.getElementById(elementId);
+            statusEl.textContent = message;
+            statusEl.className = `status show ${type}`;
+        }
+        
+        function clearStatus(elementId) {
+            const statusEl = document.getElementById(elementId);
+            statusEl.className = 'status';
+        }
+        
+        async function savePolicy() {
+            clearStatus('saveStatus');
+            
+            const policyNumber = document.getElementById('policyNumber').value;
+            const provider = document.getElementById('provider').value;
+            const coverageType = document.getElementById('coverageType').value;
+            const expiryDate = document.getElementById('expiryDate').value;
+            
+            if (!policyNumber || !provider || !coverageType || !expiryDate) {
+                showStatus('saveStatus', '❌ Please fill in all fields', 'error');
+                return;
+            }
+            
+            try {
+                const response = await fetch('/api/insurance/save', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        policyNumber,
+                        provider,
+                        coverageType,
+                        expiryDate
+                    })
+                });
+                
+                if (response.ok) {
+                    showStatus('saveStatus', `✅ Policy ${policyNumber} saved successfully!`, 'success');
+                    document.getElementById('estimatePolicyNumber').value = policyNumber;
+                    document.getElementById('policyNumber').value = '';
+                    document.getElementById('provider').value = '';
+                    document.getElementById('coverageType').value = '';
+                    document.getElementById('expiryDate').value = '';
+                } else {
+                    showStatus('saveStatus', '❌ Failed to save policy', 'error');
+                }
+            } catch (error) {
+                showStatus('saveStatus', `❌ Error: ${error.message}`, 'error');
+            }
+        }
+        
+        async function getEstimate() {
+            clearStatus('estimateStatus');
+            document.getElementById('result').classList.remove('show');
+            
+            const policyNumber = document.getElementById('estimatePolicyNumber').value;
+            const serviceType = document.getElementById('serviceType').value;
+            const partsCost = parseFloat(document.getElementById('partsCost').value);
+            const laborCost = parseFloat(document.getElementById('laborCost').value);
+            
+            if (!policyNumber || !serviceType || !partsCost || !laborCost) {
+                showStatus('estimateStatus', '❌ Please fill in all fields', 'error');
+                return;
+            }
+            
+            try {
+                const response = await fetch('/api/service/estimate', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        policyNumber,
+                        serviceType,
+                        partsCost,
+                        laborCost
+                    })
+                });
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    
+                    document.getElementById('totalCost').textContent = `$${data.totalCost.toFixed(2)}`;
+                    document.getElementById('insuranceCovered').textContent = `$${data.insuranceCoveredAmount.toFixed(2)}`;
+                    document.getElementById('customerPayable').textContent = `$${data.customerPayable.toFixed(2)}`;
+                    
+                    document.getElementById('result').classList.add('show');
+                    
+                    if (data.insuranceCoveredAmount > 0) {
+                        showStatus('estimateStatus', '✅ Estimate calculated with insurance coverage!', 'success');
+                    } else {
+                        showStatus('estimateStatus', '⚠️ Service not covered by insurance. Customer pays full amount.', 'error');
+                    }
+                } else {
+                    showStatus('estimateStatus', '❌ Failed to calculate estimate', 'error');
+                }
+            } catch (error) {
+                showStatus('estimateStatus', `❌ Error: ${error.message}`, 'error');
+            }
+        }
+        
+        // Set default expiry date to 1 year from now
+        document.addEventListener('DOMContentLoaded', () => {
+            const tomorrow = new Date();
+            tomorrow.setFullYear(tomorrow.getFullYear() + 1);
+            document.getElementById('expiryDate').valueAsDate = tomorrow;
+        });
+    </script>
+</body>
+</html>
